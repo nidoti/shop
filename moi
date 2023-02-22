@@ -1,0 +1,49 @@
+/* moi */
+
+.header.header--top-center.header--mobile-center.page-width.header--has-menu {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+.header.header--top-center.header--mobile-center.page-width.header--has-menu-content {
+  position: relative !important;
+  z-index: 0 !important;
+}
+
+.header__inline-menu {
+  position: absolute;
+   top: 100%;
+  left: 35px;
+  z-index: 0 !important;
+
+
+  .header__inline-menu-wrapper {
+  position: relative;
+ 
+}
+
+  
+}
+
+.header__heading-logo {
+  position: relative;
+  top: 150px !important; /* Ajustez la position verticale en fonction de vos besoins */
+  left: 10px !important;/* Ajustez la position horizontale en fonction de vos besoins */
+  /* autres propriétés */
+}
+
+  .header__heading-logo-wrapper {
+  position: relative;
+ 
+}
+
+.banner__media.media {
+  background-image: url("young-stylish-couple-of-trendy-dressed-skaters-relaxing-at-skatepark-2.jpg") !important;
+  background-size: 1920px 1080px !important; /* ajuste la largeur de l'image à 1200 pixels et la hauteur à 800 pixels */
+  z-index: 1 !important;
+
+}
+
+.header.header--top-center.header--mobile-center.page-width header--has-menu {
+  display: none !important;
+}
