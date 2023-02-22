@@ -1,1926 +1,3000 @@
-<!doctype html>
-<html class="no-js" lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="theme-color" content="">
-    <link rel="canonical" href="https://www.sinasride.fr/">
-    <link rel="preconnect" href="https://cdn.shopify.com" crossorigin><link rel="icon" type="image/png" href="//cdn.shopify.com/s/files/1/0665/0026/4203/files/sin..png?crop=center&height=32&v=1672668964&width=32"><link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin><title>
-      Site Officiel Sina&#39;s Ride - StreetWear©
-</title>
+/* Color custom properties */
 
-    
-      <meta name="description" content="Bienvenue sur notre boutique en ligne Sina&#39;s Ride ! Découvrez notre sélection de vêtements streetwear inspirés de la culture automobile. Nous proposons une gamme complète de vêtements de qualité, tels que des t-shirts, des sweats à capuche et bien plus encore, tous conçus pensé et designé pour vous !">
-    
-
-    
-
-<meta property="og:site_name" content="Sina&#39;s Ride">
-<meta property="og:url" content="https://www.sinasride.fr/">
-<meta property="og:title" content="Site Officiel Sina&#39;s Ride - StreetWear©">
-<meta property="og:type" content="website">
-<meta property="og:description" content="Bienvenue sur notre boutique en ligne Sina&#39;s Ride ! Découvrez notre sélection de vêtements streetwear inspirés de la culture automobile. Nous proposons une gamme complète de vêtements de qualité, tels que des t-shirts, des sweats à capuche et bien plus encore, tous conçus pensé et designé pour vous !"><meta property="og:image" content="http://cdn.shopify.com/s/files/1/0665/0026/4203/files/logo.png?height=628&pad_color=ffffff&v=1676900827&width=1200">
-  <meta property="og:image:secure_url" content="https://cdn.shopify.com/s/files/1/0665/0026/4203/files/logo.png?height=628&pad_color=ffffff&v=1676900827&width=1200">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="628"><meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Site Officiel Sina&#39;s Ride - StreetWear©">
-<meta name="twitter:description" content="Bienvenue sur notre boutique en ligne Sina&#39;s Ride ! Découvrez notre sélection de vêtements streetwear inspirés de la culture automobile. Nous proposons une gamme complète de vêtements de qualité, tels que des t-shirts, des sweats à capuche et bien plus encore, tous conçus pensé et designé pour vous !">
-
-
-    <script src="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/global.js?v=149496944046504657681672602094" defer="defer"></script>
-    <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta name="google-site-verification" content="0Mu5YKYL0gjPTo1yIcF6tKGjrWYwGn4bH7ZG9XxxXzo">
-<meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/66500264203/digital_wallets/dialog">
-<meta name="shopify-checkout-api-token" content="bc3bd42d08ef692bb847611a861f6c1e">
-<meta id="in-context-paypal-metadata" data-shop-id="66500264203" data-venmo-supported="false" data-environment="production" data-locale="fr_FR" data-paypal-v4="true" data-currency="EUR">
-<script>
-  (function() {
-    var scripts = ["https://cdn.shopify.com/shopifycloud/checkout-web/assets/runtime.latest.fr.2a521d0e35dcadae5f96.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/checkout-web-packages~Information~NoAddressLocation~Payment~PostPurchase~Review~Shipping~ShopPay~Sho~cf13f96e.latest.fr.04837ae4ff5a8e949953.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/Information~Payment~ShopPay.latest.fr.ee239ec0611f8c7e8ef6.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/Information.latest.fr.04dc445a4f1a4f3f8702.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/checkout-web-ui~app.latest.fr.86cd9328cdcd6cd3a58f.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/vendors~app.latest.fr.42f1999450e140f59467.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/checkout-web-packages~app.latest.fr.ff8b0ec2675d9f81d01a.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/app.latest.fr.5a7a8b0d77781b040d4c.js"];
-    var styles = ["https://cdn.shopify.com/shopifycloud/checkout-web/assets/checkout-web-ui~app.latest.fr.9f2a5e9ec696775e2217.css", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/vendors~app.latest.fr.e788719f193b49c039a3.css", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/app.latest.fr.6b4c79ead7042980b29d.css", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/Information~Payment~ShopPay.latest.fr.da9f06164a980bf8e7ea.css", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/Information.latest.fr.9a0274ab07be120c1902.css"];
-
-    function prefetch(url, as, callback) {
-      var link = document.createElement('link');
-      if (link.relList.supports('prefetch')) {
-        link.rel = 'prefetch';
-        link.fetchPriority = 'low';
-        link.as = as;
-        link.href = url;
-        link.onload = link.onerror = callback;
-        document.head.appendChild(link);
-      } else {
-        var xhr = new XMLHttpRequest();
-        xhr.open('GET', url, true);
-        xhr.onloadend = callback;
-        xhr.send();
-      }
-    }
-
-    function prefetchAssets() {
-      var resources = [].concat(
-        scripts.map(function(url) { return [url, 'script']; }),
-        styles.map(function(url) { return [url, 'style']; })
-      );
-      var index = 0;
-      (function next() {
-        var res = resources[index++];
-        if (res) prefetch(res[0], res[1], next);
-      })();
-    }
-
-    addEventListener('load', prefetchAssets);
-   })();
-</script>
-<script id="apple-pay-shop-capabilities" type="application/json">{"shopId":66500264203,"countryCode":"FR","currencyCode":"EUR","merchantCapabilities":["supports3DS"],"merchantId":"gid:\/\/shopify\/Shop\/66500264203","merchantName":"Sina's Ride","requiredBillingContactFields":["postalAddress","email"],"requiredShippingContactFields":["postalAddress","email"],"shippingType":"shipping","supportedNetworks":[],"total":{"type":"pending","label":"Sina's Ride","amount":"1.00"},"shopifyPaymentsEnabled":true,"supportsSubscriptions":false}</script>
-<script id="shopify-features" type="application/json">{"accessToken":"bc3bd42d08ef692bb847611a861f6c1e","betas":["rich-media-storefront-analytics"],"domain":"www.sinasride.fr","predictiveSearch":true,"shopId":66500264203,"smart_payment_buttons_url":"https:\/\/cdn.shopify.com\/shopifycloud\/payment-sheet\/assets\/latest\/spb.fr.js?v=2","dynamic_checkout_cart_url":"https:\/\/cdn.shopify.com\/shopifycloud\/payment-sheet\/assets\/latest\/dynamic-checkout-cart.fr.js?v=2","locale":"fr","optimusEnabled":false}</script>
-<script>var Shopify = Shopify || {};
-Shopify.shop = "sinas-ride.myshopify.com";
-Shopify.locale = "fr";
-Shopify.currency = {"active":"EUR","rate":"1.0"};
-Shopify.country = "FR";
-Shopify.theme = {"name":"Dawn","id":136946778379,"theme_store_id":887,"role":"main"};
-Shopify.theme.handle = "null";
-Shopify.theme.style = {"id":null,"handle":null};
-Shopify.cdnHost = "cdn.shopify.com";
-Shopify.routes = Shopify.routes || {};
-Shopify.routes.root = "/";</script>
-<script type="module">!function(o){(o.Shopify=o.Shopify||{}).modules=!0}(window);</script>
-<script>!function(o){function n(){var o=[];function n(){o.push(Array.prototype.slice.apply(arguments))}return n.q=o,n}var t=o.Shopify=o.Shopify||{};t.loadFeatures=n(),t.autoloadFeatures=n()}(window);</script>
-<script>(function() {
-  function asyncLoad() {
-    var urls = ["https:\/\/static.cdn.printful.com\/static\/js\/external\/shopify-product-customizer.js?v=0.27\u0026shop=sinas-ride.myshopify.com"];
-    for (var i = 0; i < urls.length; i++) {
-      var s = document.createElement('script');
-      s.type = 'text/javascript';
-      s.async = true;
-      s.src = urls[i];
-      var x = document.getElementsByTagName('script')[0];
-      x.parentNode.insertBefore(s, x);
-    }
-  };
-  if(window.attachEvent) {
-    window.attachEvent('onload', asyncLoad);
-  } else {
-    window.addEventListener('load', asyncLoad, false);
-  }
-})();</script>
-<script id="__st">var __st={"a":66500264203,"offset":3600,"reqid":"984b3c55-4cc4-406b-8934-5543737d44fa","pageurl":"www.sinasride.fr\/","u":"6f2debf2048d","p":"home"};</script>
-<script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
-<script>!function(o){o.addEventListener("DOMContentLoaded",function(){window.Shopify=window.Shopify||{},window.Shopify.recaptchaV3=window.Shopify.recaptchaV3||{siteKey:"6LcCR2cUAAAAANS1Gpq_mDIJ2pQuJphsSQaUEuc9"};var t=['form[action*="/contact"] input[name="form_type"][value="contact"]','form[action*="/comments"] input[name="form_type"][value="new_comment"]','form[action*="/account"] input[name="form_type"][value="customer_login"]','form[action*="/account"] input[name="form_type"][value="recover_customer_password"]','form[action*="/account"] input[name="form_type"][value="create_customer"]','form[action*="/contact"] input[name="form_type"][value="customer"]'].join(",");function n(e){e=e.target;null==e||null!=(e=function e(t,n){if(null==t.parentElement)return null;if("FORM"!=t.parentElement.tagName)return e(t.parentElement,n);for(var o=t.parentElement.action,r=0;r<n.length;r++)if(-1!==o.indexOf(n[r]))return t.parentElement;return null}(e,["/contact","/comments","/account"]))&&null!=e.querySelector(t)&&((e=o.createElement("script")).setAttribute("src","https://cdn.shopify.com/shopifycloud/storefront-recaptcha-v3/v0.6/index.js"),o.body.appendChild(e),o.removeEventListener("focus",n,!0),o.removeEventListener("change",n,!0),o.removeEventListener("click",n,!0))}o.addEventListener("click",n,!0),o.addEventListener("change",n,!0),o.addEventListener("focus",n,!0)})}(document);</script>
-<script>document.addEventListener('DOMContentLoaded', function() {
-  const adminBarInjector = new Shopify.AdminBarInjector({
-    targetNode: document.body,
-    iframeSrc: 'https://sinas-ride.myshopify.com/admin/bar?action_name=index&path=%2F&storefront_country=FR&storefront_locale=fr',
-    permanentDomain: 'sinas-ride.myshopify.com',
-  });
-
-  adminBarInjector.init();
-});</script>
-<script integrity="sha256-4VRZk5nmuLKdyxECzHbrGZ+jOgmvT6eNFej4VE7mT80=" data-source-attribution="shopify.loadfeatures" defer="defer" src="//cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-e154599399e6b8b29dcb1102cc76eb199fa33a09af4fa78d15e8f8544ee64fcd.js" crossorigin="anonymous"></script>
-<script integrity="sha256-h+g5mYiIAULyxidxudjy/2wpCz/3Rd1CbrDf4NudHa4=" data-source-attribution="shopify.dynamic-checkout" defer="defer" src="//cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js" crossorigin="anonymous"></script>
-<script integrity="sha256-AjT+yRYgO8z0L66BMKoqBvO4SrOWLJYnYYWthdsOhP4=" defer="defer" src="//cdn.shopify.com/shopifycloud/shopify/assets/storefront/bars/admin_bar_injector-0234fec916203bccf42fae8130aa2a06f3b84ab3962c96276185ad85db0e84fe.js" crossorigin="anonymous"></script>
-<script id="sections-script" data-sections="header,footer" defer="defer" src="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/compiled_assets/scripts.js?274"></script>
-
-<style id="shopify-dynamic-checkout-cart">@media screen and (min-width: 750px) {
-  #dynamic-checkout-cart {
-    min-height: 50px;
-  }
+:root,
+.color-background-1 {
+  --color-foreground: var(--color-base-text);
+  --color-background: var(--color-base-background-1);
+  --gradient-background: var(--gradient-base-background-1);
 }
 
-@media screen and (max-width: 750px) {
-  #dynamic-checkout-cart {
-    min-height: 120px;
-  }
-}
-</style><script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
-
-
-    <style data-shopify>
-      @font-face {
-  font-family: Assistant;
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-  src: url("https://fonts.shopifycdn.com/assistant/assistant_n4.bcd3d09dcb631dec5544b8fb7b154ff234a44630.woff2?h1=c2luYXMtcmlkZS5hY2NvdW50Lm15c2hvcGlmeS5jb20&h2=c2luYXNyaWRlLmZy&hmac=6ae6c659bd1a4ea3510ed5408d0586286bc29f685a47c8e82ae82ad0a64505fb") format("woff2"),
-       url("https://fonts.shopifycdn.com/assistant/assistant_n4.a2d012304becc2a26f1ded1acc136fcab85c9afd.woff?h1=c2luYXMtcmlkZS5hY2NvdW50Lm15c2hvcGlmeS5jb20&h2=c2luYXNyaWRlLmZy&hmac=0473aa377ad89ddc01f6fbcb15019688ea072df908869b6b3004db05ec134f6f") format("woff");
+.color-background-2 {
+  --color-foreground: var(--color-base-text);
+  --color-background: var(--color-base-background-2);
+  --gradient-background: var(--gradient-base-background-2);
 }
 
-      @font-face {
-  font-family: Assistant;
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-  src: url("https://fonts.shopifycdn.com/assistant/assistant_n7.3335c7bdaddf2501ddab87cdbd9be98f3870e10d.woff2?h1=c2luYXMtcmlkZS5hY2NvdW50Lm15c2hvcGlmeS5jb20&h2=c2luYXNyaWRlLmZy&hmac=23e7bfb131369cb0e31f3127da7c54dd866f8e482a7379e249cddc6234d68617") format("woff2"),
-       url("https://fonts.shopifycdn.com/assistant/assistant_n7.7c85f5c5cc1555de92cc7ef2790ee3cffe5237f5.woff?h1=c2luYXMtcmlkZS5hY2NvdW50Lm15c2hvcGlmeS5jb20&h2=c2luYXNyaWRlLmZy&hmac=593856af622eb9a8506034262760346b50487087dd85492e95fe3689b1960fa0") format("woff");
+.color-inverse {
+  --color-foreground: var(--color-base-background-1);
+  --color-background: var(--color-base-text);
+  --gradient-background: rgb(var(--color-base-text));
 }
 
-      
-      
-      @font-face {
-  font-family: Assistant;
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-  src: url("https://fonts.shopifycdn.com/assistant/assistant_n4.bcd3d09dcb631dec5544b8fb7b154ff234a44630.woff2?h1=c2luYXMtcmlkZS5hY2NvdW50Lm15c2hvcGlmeS5jb20&h2=c2luYXNyaWRlLmZy&hmac=6ae6c659bd1a4ea3510ed5408d0586286bc29f685a47c8e82ae82ad0a64505fb") format("woff2"),
-       url("https://fonts.shopifycdn.com/assistant/assistant_n4.a2d012304becc2a26f1ded1acc136fcab85c9afd.woff?h1=c2luYXMtcmlkZS5hY2NvdW50Lm15c2hvcGlmeS5jb20&h2=c2luYXNyaWRlLmZy&hmac=0473aa377ad89ddc01f6fbcb15019688ea072df908869b6b3004db05ec134f6f") format("woff");
+.color-accent-1 {
+  --color-foreground: var(--color-base-solid-button-labels);
+  --color-background: var(--color-base-accent-1);
+  --gradient-background: var(--gradient-base-accent-1);
+}
+
+.color-accent-2 {
+  --color-foreground: var(--color-base-solid-button-labels);
+  --color-background: var(--color-base-accent-2);
+  --gradient-background: var(--gradient-base-accent-2);
+}
+
+.color-foreground-outline-button {
+  --color-foreground: var(--color-base-outline-button-labels);
+}
+
+.color-foreground-accent-1 {
+  --color-foreground: var(--color-base-accent-1);
+}
+
+.color-foreground-accent-2 {
+  --color-foreground: var(--color-base-accent-2);
+}
+
+:root,
+.color-background-1 {
+  --color-link: var(--color-base-outline-button-labels);
+  --alpha-link: 0.85;
+}
+
+.color-background-2,
+.color-inverse,
+.color-accent-1,
+.color-accent-2 {
+  --color-link: var(--color-foreground);
+  --alpha-link: 0.7;
+}
+
+:root,
+.color-background-1 {
+  --color-button: var(--color-base-accent-1);
+  --color-button-text: var(--color-base-solid-button-labels);
+  --alpha-button-background: 1;
+  --alpha-button-border: 1;
+}
+
+.color-background-2,
+.color-inverse,
+.color-accent-1,
+.color-accent-2 {
+  --color-button: var(--color-foreground);
+  --color-button-text: var(--color-background);
+}
+
+.button--secondary {
+  --color-button: var(--color-base-outline-button-labels);
+  --color-button-text: var(--color-base-outline-button-labels);
+  --color-button: var(--color-background);
+  --alpha-button-background: 1;
+}
+
+.color-background-2 .button--secondary,
+.color-accent-1 .button--secondary,
+.color-accent-2 .button--secondary {
+  --color-button: var(--color-background);
+  --color-button-text: var(--color-foreground);
+}
+
+.color-inverse .button--secondary {
+  --color-button: var(--color-background);
+  --color-button-text: var(--color-foreground);
+}
+
+.button--tertiary {
+  --color-button: var(--color-base-outline-button-labels);
+  --color-button-text: var(--color-base-outline-button-labels);
+  --alpha-button-background: 0;
+  --alpha-button-border: 0.2;
+}
+
+.color-background-2 .button--tertiary,
+.color-inverse .button--tertiary,
+.color-accent-1 .button--tertiary,
+.color-accent-2 .button--tertiary {
+  --color-button: var(--color-foreground);
+  --color-button-text: var(--color-foreground);
+}
+
+:root,
+.color-background-1 {
+  --color-badge-background: var(--color-background);
+  --color-badge-border: var(--color-foreground);
+  --alpha-badge-border: 0.1;
+}
+
+.color-background-2,
+.color-inverse,
+.color-accent-1,
+.color-accent-2 {
+  --color-badge-background: var(--color-background);
+  --color-badge-border: var(--color-background);
+  --alpha-badge-border: 1;
+}
+
+:root,
+.color-background-1,
+.color-background-2 {
+  --color-card-hover: var(--color-base-text);
+}
+
+.color-inverse {
+  --color-card-hover: var(--color-base-background-1);
+}
+
+.color-accent-1,
+.color-accent-2 {
+  --color-card-hover: var(--color-base-solid-button-labels);
+}
+
+:root,
+.color-icon-text {
+  --color-icon: rgb(var(--color-base-text));
+}
+
+.color-icon-accent-1 {
+  --color-icon: rgb(var(--color-base-accent-1));
+}
+
+.color-icon-accent-2 {
+  --color-icon: rgb(var(--color-base-accent-2));
+}
+
+.color-icon-outline-button {
+  --color-icon: rgb(var(--color-base-outline-button-labels));
+}
+
+.product-card-wrapper .card,
+.contains-card--product {
+  --border-radius: var(--product-card-corner-radius);
+  --border-width: var(--product-card-border-width);
+  --border-opacity: var(--product-card-border-opacity);
+  --shadow-horizontal-offset: var(--product-card-shadow-horizontal-offset);
+  --shadow-vertical-offset: var(--product-card-shadow-vertical-offset);
+  --shadow-blur-radius: var(--product-card-shadow-blur-radius);
+  --shadow-opacity: var(--product-card-shadow-opacity);
+  --shadow-visible: var(--product-card-shadow-visible);
+  --image-padding: var(--product-card-image-padding);
+  --text-alignment: var(--product-card-text-alignment);
+}
+
+.collection-card-wrapper .card,
+.contains-card--collection {
+  --border-radius: var(--collection-card-corner-radius);
+  --border-width: var(--collection-card-border-width);
+  --border-opacity: var(--collection-card-border-opacity);
+  --shadow-horizontal-offset: var(--collection-card-shadow-horizontal-offset);
+  --shadow-vertical-offset: var(--collection-card-shadow-vertical-offset);
+  --shadow-blur-radius: var(--collection-card-shadow-blur-radius);
+  --shadow-opacity: var(--collection-card-shadow-opacity);
+  --shadow-visible: var(--collection-card-shadow-visible);
+  --image-padding: var(--collection-card-image-padding);
+  --text-alignment: var(--collection-card-text-alignment);
+}
+
+.article-card-wrapper .card,
+.contains-card--article {
+  --border-radius: var(--blog-card-corner-radius);
+  --border-width: var(--blog-card-border-width);
+  --border-opacity: var(--blog-card-border-opacity);
+  --shadow-horizontal-offset: var(--blog-card-shadow-horizontal-offset);
+  --shadow-vertical-offset: var(--blog-card-shadow-vertical-offset);
+  --shadow-blur-radius: var(--blog-card-shadow-blur-radius);
+  --shadow-opacity: var(--blog-card-shadow-opacity);
+  --shadow-visible: var(--blog-card-shadow-visible);
+  --image-padding: var(--blog-card-image-padding);
+  --text-alignment: var(--blog-card-text-alignment);
+}
+
+.contains-content-container,
+.content-container {
+  --border-radius: var(--text-boxes-radius);
+  --border-width: var(--text-boxes-border-width);
+  --border-opacity: var(--text-boxes-border-opacity);
+  --shadow-horizontal-offset: var(--text-boxes-shadow-horizontal-offset);
+  --shadow-vertical-offset: var(--text-boxes-shadow-vertical-offset);
+  --shadow-blur-radius: var(--text-boxes-shadow-blur-radius);
+  --shadow-opacity: var(--text-boxes-shadow-opacity);
+  --shadow-visible: var(--text-boxes-shadow-visible);
+}
+
+.contains-media,
+.global-media-settings {
+  --border-radius: var(--media-radius);
+  --border-width: var(--media-border-width);
+  --border-opacity: var(--media-border-opacity);
+  --shadow-horizontal-offset: var(--media-shadow-horizontal-offset);
+  --shadow-vertical-offset: var(--media-shadow-vertical-offset);
+  --shadow-blur-radius: var(--media-shadow-blur-radius);
+  --shadow-opacity: var(--media-shadow-opacity);
+  --shadow-visible: var(--media-shadow-visible);
+}
+
+/* moi */
+
+.header.header--top-center.header--mobile-center.page-width.header--has-menu {
+  background opacity: 0;
 }
 
 
-      :root {
-        --font-body-family: Assistant, sans-serif;
-        --font-body-style: normal;
-        --font-body-weight: 400;
-        --font-body-weight-bold: 700;
 
-        --font-heading-family: Assistant, sans-serif;
-        --font-heading-style: normal;
-        --font-heading-weight: 400;
+.header__inline-menu {
+  position: absolute;
+   top: 100%;
+  left: 35px;
+  z-index: 999;
 
-        --font-body-scale: 1.0;
-        --font-heading-scale: 1.0;
-
-        --color-base-text: 18, 18, 18;
-        --color-shadow: 18, 18, 18;
-        --color-base-background-1: 255, 255, 255;
-        --color-base-background-2: 243, 243, 243;
-        --color-base-solid-button-labels: 255, 255, 255;
-        --color-base-outline-button-labels: 18, 18, 18;
-        --color-base-accent-1: 18, 18, 18;
-        --color-base-accent-2: 51, 79, 180;
-        --payment-terms-background-color: #ffffff;
-
-        --gradient-base-background-1: #ffffff;
-        --gradient-base-background-2: #f3f3f3;
-        --gradient-base-accent-1: #121212;
-        --gradient-base-accent-2: #334fb4;
-
-        --media-padding: px;
-        --media-border-opacity: 0.05;
-        --media-border-width: 1px;
-        --media-radius: 0px;
-        --media-shadow-opacity: 0.0;
-        --media-shadow-horizontal-offset: 0px;
-        --media-shadow-vertical-offset: 4px;
-        --media-shadow-blur-radius: 5px;
-        --media-shadow-visible: 0;
-
-        --page-width: 120rem;
-        --page-width-margin: 0rem;
-
-        --product-card-image-padding: 0.0rem;
-        --product-card-corner-radius: 0.0rem;
-        --product-card-text-alignment: left;
-        --product-card-border-width: 0.0rem;
-        --product-card-border-opacity: 0.1;
-        --product-card-shadow-opacity: 0.0;
-        --product-card-shadow-visible: 0;
-        --product-card-shadow-horizontal-offset: 0.0rem;
-        --product-card-shadow-vertical-offset: 0.4rem;
-        --product-card-shadow-blur-radius: 0.5rem;
-
-        --collection-card-image-padding: 0.0rem;
-        --collection-card-corner-radius: 0.0rem;
-        --collection-card-text-alignment: left;
-        --collection-card-border-width: 0.0rem;
-        --collection-card-border-opacity: 0.1;
-        --collection-card-shadow-opacity: 0.0;
-        --collection-card-shadow-visible: 0;
-        --collection-card-shadow-horizontal-offset: 0.0rem;
-        --collection-card-shadow-vertical-offset: 0.4rem;
-        --collection-card-shadow-blur-radius: 0.5rem;
-
-        --blog-card-image-padding: 0.0rem;
-        --blog-card-corner-radius: 0.0rem;
-        --blog-card-text-alignment: left;
-        --blog-card-border-width: 0.0rem;
-        --blog-card-border-opacity: 0.1;
-        --blog-card-shadow-opacity: 0.0;
-        --blog-card-shadow-visible: 0;
-        --blog-card-shadow-horizontal-offset: 0.0rem;
-        --blog-card-shadow-vertical-offset: 0.4rem;
-        --blog-card-shadow-blur-radius: 0.5rem;
-
-        --badge-corner-radius: 4.0rem;
-
-        --popup-border-width: 1px;
-        --popup-border-opacity: 0.0;
-        --popup-corner-radius: 0px;
-        --popup-shadow-opacity: 0.1;
-        --popup-shadow-horizontal-offset: 0px;
-        --popup-shadow-vertical-offset: 4px;
-        --popup-shadow-blur-radius: 5px;
-
-        --drawer-border-width: 1px;
-        --drawer-border-opacity: 0.1;
-        --drawer-shadow-opacity: 0.0;
-        --drawer-shadow-horizontal-offset: 0px;
-        --drawer-shadow-vertical-offset: 4px;
-        --drawer-shadow-blur-radius: 5px;
-
-        --spacing-sections-desktop: 0px;
-        --spacing-sections-mobile: 0px;
-
-        --grid-desktop-vertical-spacing: 8px;
-        --grid-desktop-horizontal-spacing: 8px;
-        --grid-mobile-vertical-spacing: 4px;
-        --grid-mobile-horizontal-spacing: 4px;
-
-        --text-boxes-border-opacity: 0.1;
-        --text-boxes-border-width: 0px;
-        --text-boxes-radius: 0px;
-        --text-boxes-shadow-opacity: 0.0;
-        --text-boxes-shadow-visible: 0;
-        --text-boxes-shadow-horizontal-offset: 0px;
-        --text-boxes-shadow-vertical-offset: 4px;
-        --text-boxes-shadow-blur-radius: 5px;
-
-        --buttons-radius: 0px;
-        --buttons-radius-outset: 0px;
-        --buttons-border-width: 1px;
-        --buttons-border-opacity: 1.0;
-        --buttons-shadow-opacity: 0.0;
-        --buttons-shadow-visible: 0;
-        --buttons-shadow-horizontal-offset: 0px;
-        --buttons-shadow-vertical-offset: 4px;
-        --buttons-shadow-blur-radius: 5px;
-        --buttons-border-offset: 0px;
-
-        --inputs-radius: 0px;
-        --inputs-border-width: 1px;
-        --inputs-border-opacity: 0.55;
-        --inputs-shadow-opacity: 0.0;
-        --inputs-shadow-horizontal-offset: 0px;
-        --inputs-margin-offset: 0px;
-        --inputs-shadow-vertical-offset: 4px;
-        --inputs-shadow-blur-radius: 5px;
-        --inputs-radius-outset: 0px;
-
-        --variant-pills-radius: 40px;
-        --variant-pills-border-width: 1px;
-        --variant-pills-border-opacity: 0.55;
-        --variant-pills-shadow-opacity: 0.0;
-        --variant-pills-shadow-horizontal-offset: 0px;
-        --variant-pills-shadow-vertical-offset: 4px;
-        --variant-pills-shadow-blur-radius: 5px;
-      }
-
-      *,
-      *::before,
-      *::after {
-        box-sizing: inherit;
-      }
-
-      html {
-        box-sizing: border-box;
-        font-size: calc(var(--font-body-scale) * 62.5%);
-        height: 100%;
-      }
-
-      body {
-        display: grid;
-        grid-template-rows: auto auto 1fr auto;
-        grid-template-columns: 100%;
-        min-height: 100%;
-        margin: 0;
-        font-size: 1.5rem;
-        letter-spacing: 0.06rem;
-        line-height: calc(1 + 0.8 / var(--font-body-scale));
-        font-family: var(--font-body-family);
-        font-style: var(--font-body-style);
-        font-weight: var(--font-body-weight);
-      }
-
-      @media screen and (min-width: 750px) {
-        body {
-          font-size: 1.6rem;
-        }
-      }
-    </style>
-
-    <link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/base.css?v=6412337596553679421677072085" rel="stylesheet" type="text/css" media="all" />
-<link rel="preload" as="font" href="https://fonts.shopifycdn.com/assistant/assistant_n4.bcd3d09dcb631dec5544b8fb7b154ff234a44630.woff2?h1=c2luYXMtcmlkZS5hY2NvdW50Lm15c2hvcGlmeS5jb20&h2=c2luYXNyaWRlLmZy&hmac=6ae6c659bd1a4ea3510ed5408d0586286bc29f685a47c8e82ae82ad0a64505fb" type="font/woff2" crossorigin><link rel="preload" as="font" href="https://fonts.shopifycdn.com/assistant/assistant_n4.bcd3d09dcb631dec5544b8fb7b154ff234a44630.woff2?h1=c2luYXMtcmlkZS5hY2NvdW50Lm15c2hvcGlmeS5jb20&h2=c2luYXNyaWRlLmZy&hmac=6ae6c659bd1a4ea3510ed5408d0586286bc29f685a47c8e82ae82ad0a64505fb" type="font/woff2" crossorigin><link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-predictive-search.css?v=83512081251802922551672602086" media="print" onload="this.media='all'"><script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
-    if (Shopify.designMode) {
-      document.documentElement.classList.add('shopify-design-mode');
-    }
-    </script>
-  <link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
-<script>(function(){if ("sendBeacon" in navigator && "performance" in window) {var session_token = document.cookie.match(/_shopify_s=([^;]*)/);function handle_abandonment_event(e) {var entries = performance.getEntries().filter(function(entry) {return /monorail-edge.shopifysvc.com/.test(entry.name);});if (!window.abandonment_tracked && entries.length === 0) {window.abandonment_tracked = true;var currentMs = Date.now();var navigation_start = performance.timing.navigationStart;var payload = {shop_id: 66500264203,url: window.location.href,navigation_start,duration: currentMs - navigation_start,session_token: session_token && session_token.length === 2 ? session_token[1] : "",page_type: "index"};window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({schema_id: "online_store_buyer_site_abandonment/1.1",payload: payload,metadata: {event_created_at_ms: currentMs,event_sent_at_ms: currentMs}}));}}window.addEventListener('pagehide', handle_abandonment_event);}}());</script>
-<script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
-window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
-window.ShopifyAnalytics.meta.currency = 'EUR';
-var meta = {"page":{"pageType":"home"}};
-for (var attr in meta) {
-  window.ShopifyAnalytics.meta[attr] = meta[attr];
-}</script>
-<script>window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
-  
-};
-</script>
-<script class="analytics">(function () {
-  var customDocumentWrite = function(content) {
-    var jquery = null;
-
-    if (window.jQuery) {
-      jquery = window.jQuery;
-    } else if (window.Checkout && window.Checkout.$) {
-      jquery = window.Checkout.$;
-    }
-
-    if (jquery) {
-      jquery('body').append(content);
-    }
-  };
-
-  var hasLoggedConversion = function(token) {
-    if (token) {
-      return document.cookie.indexOf('loggedConversion=' + token) !== -1;
-    }
-    return false;
-  }
-
-  var setCookieIfConversion = function(token) {
-    if (token) {
-      var twoMonthsFromNow = new Date(Date.now());
-      twoMonthsFromNow.setMonth(twoMonthsFromNow.getMonth() + 2);
-
-      document.cookie = 'loggedConversion=' + token + '; expires=' + twoMonthsFromNow;
-    }
-  }
-
-  var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
-  if (trekkie.integrations) {
-    return;
-  }
-  trekkie.methods = [
-    'identify',
-    'page',
-    'ready',
-    'track',
-    'trackForm',
-    'trackLink'
-  ];
-  trekkie.factory = function(method) {
-    return function() {
-      var args = Array.prototype.slice.call(arguments);
-      args.unshift(method);
-      trekkie.push(args);
-      return trekkie;
-    };
-  };
-  for (var i = 0; i < trekkie.methods.length; i++) {
-    var key = trekkie.methods[i];
-    trekkie[key] = trekkie.factory(key);
-  }
-  trekkie.load = function(config) {
-    trekkie.config = config || {};
-    trekkie.config.initialDocumentCookie = document.cookie;
-    var first = document.getElementsByTagName('script')[0];
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.onerror = function(e) {
-      var scriptFallback = document.createElement('script');
-      scriptFallback.type = 'text/javascript';
-      scriptFallback.onerror = function(error) {
-              var Monorail = {
-      produce: function produce(monorailDomain, schemaId, payload) {
-        var currentMs = new Date().getTime();
-        var event = {
-          schema_id: schemaId,
-          payload: payload,
-          metadata: {
-            event_created_at_ms: currentMs,
-            event_sent_at_ms: currentMs
-          }
-        };
-        return Monorail.sendRequest("https://" + monorailDomain + "/v1/produce", JSON.stringify(event));
-      },
-      sendRequest: function sendRequest(endpointUrl, payload) {
-        // Try the sendBeacon API
-        if (window && window.navigator && typeof window.navigator.sendBeacon === 'function' && typeof window.Blob === 'function' && !Monorail.isIos12()) {
-          var blobData = new window.Blob([payload], {
-            type: 'text/plain'
-          });
-    
-          if (window.navigator.sendBeacon(endpointUrl, blobData)) {
-            return true;
-          } // sendBeacon was not successful
-    
-        } // XHR beacon   
-    
-        var xhr = new XMLHttpRequest();
-    
-        try {
-          xhr.open('POST', endpointUrl);
-          xhr.setRequestHeader('Content-Type', 'text/plain');
-          xhr.send(payload);
-        } catch (e) {
-          console.log(e);
-        }
-    
-        return false;
-      },
-      isIos12: function isIos12() {
-        return window.navigator.userAgent.lastIndexOf('iPhone; CPU iPhone OS 12_') !== -1 || window.navigator.userAgent.lastIndexOf('iPad; CPU OS 12_') !== -1;
-      }
-    };
-    Monorail.produce('monorail-edge.shopifysvc.com',
-      'trekkie_storefront_load_errors/1.1',
-      {shop_id: 66500264203,
-      theme_id: 136946778379,
-      app_name: "storefront",
-      context_url: window.location.href,
-      source_url: "https://cdn.shopify.com/s/trekkie.storefront.7d0a13153e8bbaa5986cddb6780ade2d67000476.min.js"});
-
-      };
-      scriptFallback.async = true;
-      scriptFallback.src = 'https://cdn.shopify.com/s/trekkie.storefront.7d0a13153e8bbaa5986cddb6780ade2d67000476.min.js';
-      first.parentNode.insertBefore(scriptFallback, first);
-    };
-    script.async = true;
-    script.src = 'https://cdn.shopify.com/s/trekkie.storefront.7d0a13153e8bbaa5986cddb6780ade2d67000476.min.js';
-    first.parentNode.insertBefore(script, first);
-  };
-  trekkie.load(
-    {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":66500264203,"isMerchantRequest":true,"themeId":136946778379,"themeCityHash":"2203615985677642022","contentLanguage":"fr","currency":"EUR"},"isServerSideCookieWritingEnabled":true,"monorailRegion":"shop_domain"},"Session Attribution":{},"S2S":{"facebookCapiEnabled":false,"source":"trekkie-storefront-renderer"}}
-  );
-
-  var loaded = false;
-  trekkie.ready(function() {
-    if (loaded) return;
-    loaded = true;
-
-    window.ShopifyAnalytics.lib = window.trekkie;
-    
-
-    var originalDocumentWrite = document.write;
-    document.write = customDocumentWrite;
-    try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
-    document.write = originalDocumentWrite;
-
-    window.ShopifyAnalytics.lib.page(null,{"pageType":"home"});
-
-    var match = window.location.pathname.match(/checkouts\/(.+)\/(thank_you|post_purchase)/)
-    var token = match? match[1]: undefined;
-    if (!hasLoggedConversion(token)) {
-      setCookieIfConversion(token);
-      
-    }
-  });
+  .header__inline-menu-wrapper {
+  position: relative;
+ 
+}
 
   
-      var eventsListenerScript = document.createElement('script');
-      eventsListenerScript.async = true;
-      eventsListenerScript.src = "//cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-65cd0ba3fcd81a1df33f2510ec5bcf8c0e0958653b50e3965ec972dd638ee13f.js";
-      document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
-    
-})();</script>
-<script class="boomerang">
-(function () {
-  if (window.BOOMR && (window.BOOMR.version || window.BOOMR.snippetExecuted)) {
-    return;
-  }
-  window.BOOMR = window.BOOMR || {};
-  window.BOOMR.snippetStart = new Date().getTime();
-  window.BOOMR.snippetExecuted = true;
-  window.BOOMR.snippetVersion = 12;
-  window.BOOMR.application = "storefront-renderer";
-  window.BOOMR.themeName = "Dawn";
-  window.BOOMR.themeVersion = "7.0.1";
-  window.BOOMR.shopId = 66500264203;
-  window.BOOMR.themeId = 136946778379;
-  window.BOOMR.renderRegion = "gcp-europe-west4";
-  window.BOOMR.url =
-    "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js";
-  var where = document.currentScript || document.getElementsByTagName("script")[0];
-  var parentNode = where.parentNode;
-  var promoted = false;
-  var LOADER_TIMEOUT = 3000;
-  function promote() {
-    if (promoted) {
-      return;
-    }
-    var script = document.createElement("script");
-    script.id = "boomr-scr-as";
-    script.src = window.BOOMR.url;
-    script.async = true;
-    parentNode.appendChild(script);
-    promoted = true;
-  }
-  function iframeLoader(wasFallback) {
-    promoted = true;
-    var dom, bootstrap, iframe, iframeStyle;
-    var doc = document;
-    var win = window;
-    window.BOOMR.snippetMethod = wasFallback ? "if" : "i";
-    bootstrap = function(parent, scriptId) {
-      var script = doc.createElement("script");
-      script.id = scriptId || "boomr-if-as";
-      script.src = window.BOOMR.url;
-      BOOMR_lstart = new Date().getTime();
-      parent = parent || doc.body;
-      parent.appendChild(script);
-    };
-    if (!window.addEventListener && window.attachEvent && navigator.userAgent.match(/MSIE [67]./)) {
-      window.BOOMR.snippetMethod = "s";
-      bootstrap(parentNode, "boomr-async");
-      return;
-    }
-    iframe = document.createElement("IFRAME");
-    iframe.src = "about:blank";
-    iframe.title = "";
-    iframe.role = "presentation";
-    iframe.loading = "eager";
-    iframeStyle = (iframe.frameElement || iframe).style;
-    iframeStyle.width = 0;
-    iframeStyle.height = 0;
-    iframeStyle.border = 0;
-    iframeStyle.display = "none";
-    parentNode.appendChild(iframe);
-    try {
-      win = iframe.contentWindow;
-      doc = win.document.open();
-    } catch (e) {
-      dom = document.domain;
-      iframe.src = "javascript:var d=document.open();d.domain='" + dom + "';void(0);";
-      win = iframe.contentWindow;
-      doc = win.document.open();
-    }
-    if (dom) {
-      doc._boomrl = function() {
-        this.domain = dom;
-        bootstrap();
-      };
-      doc.write("<body onload='document._boomrl();'>");
-    } else {
-      win._boomrl = function() {
-        bootstrap();
-      };
-      if (win.addEventListener) {
-        win.addEventListener("load", win._boomrl, false);
-      } else if (win.attachEvent) {
-        win.attachEvent("onload", win._boomrl);
-      }
-    }
-    doc.close();
-  }
-  var link = document.createElement("link");
-  if (link.relList &&
-    typeof link.relList.supports === "function" &&
-    link.relList.supports("preload") &&
-    ("as" in link)) {
-    window.BOOMR.snippetMethod = "p";
-    link.href = window.BOOMR.url;
-    link.rel = "preload";
-    link.as = "script";
-    link.addEventListener("load", promote);
-    link.addEventListener("error", function() {
-      iframeLoader(true);
-    });
-    setTimeout(function() {
-      if (!promoted) {
-        iframeLoader(true);
-      }
-    }, LOADER_TIMEOUT);
-    BOOMR_lstart = new Date().getTime();
-    parentNode.appendChild(link);
-  } else {
-    iframeLoader(false);
-  }
-  function boomerangSaveLoadTime(e) {
-    window.BOOMR_onload = (e && e.timeStamp) || new Date().getTime();
-  }
-  if (window.addEventListener) {
-    window.addEventListener("load", boomerangSaveLoadTime, false);
-  } else if (window.attachEvent) {
-    window.attachEvent("onload", boomerangSaveLoadTime);
-  }
-  if (document.addEventListener) {
-    document.addEventListener("onBoomerangLoaded", function(e) {
-      e.detail.BOOMR.init({
-        ResourceTiming: {
-          enabled: true,
-          trackedResourceTypes: ["script", "img", "css"]
-        },
-      });
-      e.detail.BOOMR.t_end = new Date().getTime();
-    });
-  } else if (document.attachEvent) {
-    document.attachEvent("onpropertychange", function(e) {
-      if (!e) e=event;
-      if (e.propertyName === "onBoomerangLoaded") {
-        e.detail.BOOMR.init({
-          ResourceTiming: {
-            enabled: true,
-            trackedResourceTypes: ["script", "img", "css"]
-          },
-        });
-        e.detail.BOOMR.t_end = new Date().getTime();
-      }
-    });
-  }
-})();</script>
-<script id="web-pixels-manager-setup">(function e(e,n,a,o,t,r){e&&(window.Shopify=window.Shopify||{},window.Shopify.analytics=window.Shopify.analytics||{},window.Shopify.analytics.replayQueue=[],window.Shopify.analytics.publish=function(e,n,a){window.Shopify.analytics.replayQueue.push([e,n,a])});var i,s,l,d,c,u,p,f,h,y=function(){var e="legacy",n="unknown",a=null,o=navigator.userAgent.match(/(Firefox|Chrome)\/(\d+)/i),t=navigator.userAgent.match(/(Edg)\/(\d+)/i),r=navigator.userAgent.match(/(Version)\/(\d+)(.+)(Safari)\/(\d+)/i);r?(n="safari",a=parseInt(r[2],10)):t?(n="edge",a=parseInt(t[2],10)):o&&(n=o[1].toLocaleLowerCase(),a=parseInt(o[2],10));var i={chrome:60,firefox:55,safari:11,edge:80}[n];return void 0!==i&&null!==a&&i<=a&&(e="modern"),e}();i="string"==typeof r&&r.length>0?a+"/"+o.substring(0,1)+r+y.substring(0,1)+".js":a+"/"+o+"."+y+".js",s={src:i,async:!0,onload:function(){if(e){var a=window.webPixelsManager.init(e);n(a),window.Shopify.analytics.replayQueue.forEach((function(e){a.publishCustomEvent(e[0],e[1],e[2])})),window.Shopify.analytics.replayQueue=[],window.Shopify.analytics.publish=a.publishCustomEvent}},onerror:function(){var n=(e.storefrontBaseUrl?e.storefrontBaseUrl.replace(/\/$/,""):self.location.origin)+"/.well-known/shopify/monorail/unstable/produce_batch",a=JSON.stringify({metadata:{event_sent_at_ms:(new Date).getTime()},events:[{schema_id:"web_pixels_manager_load/2.0",payload:{version:t||"latest",page_url:self.location.href,status:"failed",error_msg:i+" has failed to load"},metadata:{event_created_at_ms:(new Date).getTime()}}]});try{if(self.navigator.sendBeacon.bind(self.navigator)(n,a))return!0}catch(e){}const o=new XMLHttpRequest;try{return o.open("POST",n,!0),o.setRequestHeader("Content-Type","text/plain"),o.send(a),!0}catch(e){console&&console.warn&&console.warn("[Web Pixels Manager] Got an unhandled error while logging a load error.")}return!1}},l=document.createElement("script"),d=s.src,c=s.async||!0,u=s.onload,p=s.onerror,f=document.head,h=document.body,l.async=c,l.src=d,u&&l.addEventListener("load",u),p&&l.addEventListener("error",p),f?f.appendChild(l):h?h.appendChild(l):console.error("Did not find a head or body element to append the script")})({shopId: 66500264203,storefrontBaseUrl: "https://www.sinasride.fr",cdnBaseUrl: "https://cdn.shopify.com",surface: "storefront-renderer",enabledBetaFlags: ["web_pixels_use_shop_domain_monorail_endpoint","web_pixels_shopify_pixel_validation"],webPixelExtensionBaseUrl: "https://cdn.shopify.com",webPixelsConfigList: [{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"058","apiClientId":"shopify-pixel","type":"APP"},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"058","apiClientId":"shopify-pixel","type":"CUSTOM"}],initData: {"cart":null,"checkout":null,"customer":null,"productVariants":[]},},function pageEvents(webPixelsManagerAPI) {webPixelsManagerAPI.publish("page_viewed");},"https://cdn.shopify.com/shopifycloud/web-pixels-manager/0.0.221","browser","0.0.221","");</script></head>
+}
+.
+header__heading-logo {
+  position: absolute !important;
+  padding-top: 150px !important; /* Ajustez la position verticale en fonction de vos besoins */
+  left: 20px !important; /* Ajustez la position horizontale en fonction de vos besoins */
+  /* autres propriétés */
+}
 
-  <body class="gradient">
-    <a class="skip-to-content-link button visually-hidden" href="#MainContent">
-      Ignorer et passer au contenu
-    </a><div id="shopify-section-announcement-bar" class="shopify-section"><div class="announcement-bar color-background-1 gradient" role="region" aria-label="Annonce" ><div class="page-width">
-                <p class="announcement-bar__message center h5">
-                  Bienvenue dans notre boutique
-</p>
-              </div></div>
-</div>
-    <div id="shopify-section-header" class="shopify-section section-header"><link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-list-menu.css?v=151968516119678728991672602101" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-search.css?v=96455689198851321781672602073" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-menu-drawer.css?v=182311192829367774911672602080" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-cart-notification.css?v=183358051719344305851672602067" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-cart-items.css?v=23917223812499722491672602125" media="print" onload="this.media='all'"><link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-price.css?v=65402837579211014041672602079" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-loading-overlay.css?v=167310470843593579841672602131" media="print" onload="this.media='all'"><noscript><link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-list-menu.css?v=151968516119678728991672602101" rel="stylesheet" type="text/css" media="all" /></noscript>
-<noscript><link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-search.css?v=96455689198851321781672602073" rel="stylesheet" type="text/css" media="all" /></noscript>
-<noscript><link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-menu-drawer.css?v=182311192829367774911672602080" rel="stylesheet" type="text/css" media="all" /></noscript>
-<noscript><link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-cart-notification.css?v=183358051719344305851672602067" rel="stylesheet" type="text/css" media="all" /></noscript>
-<noscript><link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-cart-items.css?v=23917223812499722491672602125" rel="stylesheet" type="text/css" media="all" /></noscript>
 
-<style>
-  header-drawer {
-    justify-self: start;
-    margin-left: -1.2rem;
+banner {
+  background-image: url('//cdn.shopify.com/s/files/1/0665/0026/4203/files/young-stylish-couple-of-trendy-dressed-skaters-relaxing-at-skatepark-2.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.header.header--top-center.header--mobile-center.page-width header--has-menu {
+  display: none !important;
+}
+
+  /* base */
+
+.no-js:not(html) {
+  display: none !important;
+}
+
+html.no-js .no-js:not(html) {
+  display: block !important;
+}
+
+.no-js-inline {
+  display: none !important;
+}
+
+html.no-js .no-js-inline {
+  display: inline-block !important;
+}
+
+html.no-js .no-js-hidden {
+  display: none !important;
+}
+
+.page-width {
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.page-width-desktop {
+  padding: 0;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 9000px) {
+  .page-width {
+    padding: 0 5rem;
   }
 
-  .header__heading-logo {
-    max-width: 230px;
+  .page-width--narrow {
+    padding: 0 9rem;
   }
 
-  @media screen and (min-width: 990px) {
-    header-drawer {
-      display: none;
-    }
-  }
-
-  .menu-drawer-container {
-    display: flex;
-  }
-
-  .list-menu {
-    list-style: none;
+  .page-width-desktop {
     padding: 0;
+  }
+
+  .page-width-tablet {
+    padding: 0 5rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .page-width--narrow {
+    max-width: 72.6rem;
+    padding: 0;
+  }
+
+  .page-width-desktop {
+    max-width: var(--page-width);
+    padding: 0 5rem;
+  }
+}
+
+.isolate {
+  position: relative;
+  z-index: 0;
+}
+
+.section + .section {
+  margin-top: var(--spacing-sections-mobile);
+}
+
+@media screen and (min-width: 750px) {
+  .section + .section {
+    margin-top: var(--spacing-sections-desktop);
+  }
+}
+
+.element-margin-top {
+  margin-top: 5rem;
+}
+
+@media screen and (min-width: 750px) {
+  .element-margin {
+    margin-top: calc(5rem + var(--page-width-margin));
+  }
+}
+
+body,
+.color-background-1,
+.color-background-2,
+.color-inverse,
+.color-accent-1,
+.color-accent-2 {
+  color: rgba(var(--color-foreground), 0.75);
+  background-color: rgb(var(--color-background));
+}
+
+.background-secondary {
+  background-color: rgba(var(--color-foreground), 0.04);
+}
+
+.grid-auto-flow {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.page-margin,
+.shopify-challenge__container {
+  margin: 7rem auto;
+}
+
+.rte-width {
+  max-width: 82rem;
+  margin: 0 auto 2rem;
+}
+
+.list-unstyled {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  word-wrap: normal !important;
+}
+
+.visually-hidden--inline {
+  margin: 0;
+  height: 1em;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.skip-to-content-link:focus {
+  z-index: 9999;
+  position: inherit;
+  overflow: auto;
+  width: auto;
+  height: auto;
+  clip: auto;
+}
+
+.full-width-link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+::selection {
+  background-color: rgba(var(--color-foreground), 0.2);
+}
+
+.text-body {
+  font-size: 1.5rem;
+  letter-spacing: 0.06rem;
+  line-height: calc(1 + 0.8 / var(--font-body-scale));
+  font-family: var(--font-body-family);
+  font-style: var(--font-body-style);
+  font-weight: var(--font-body-weight);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h0,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  font-family: var(--font-heading-family);
+  font-style: var(--font-heading-style);
+  font-weight: var(--font-heading-weight);
+  letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
+  color: rgb(var(--color-foreground));
+  line-height: calc(1 + 0.3 / max(1, var(--font-heading-scale)));
+  word-break: break-word;
+}
+
+.hxl {
+  font-size: calc(var(--font-heading-scale) * 5rem);
+}
+
+@media only screen and (min-width: 750px) {
+  .hxl {
+    font-size: calc(var(--font-heading-scale) * 6.2rem);
+  }
+}
+
+.h0 {
+  font-size: calc(var(--font-heading-scale) * 4rem);
+}
+
+@media only screen and (min-width: 750px) {
+  .h0 {
+    font-size: calc(var(--font-heading-scale) * 5.2rem);
+  }
+}
+
+h1,
+.h1 {
+  font-size: calc(var(--font-heading-scale) * 3rem);
+}
+
+@media only screen and (min-width: 750px) {
+  h1,
+  .h1 {
+    font-size: calc(var(--font-heading-scale) * 4rem);
+  }
+}
+
+h2,
+.h2 {
+  font-size: calc(var(--font-heading-scale) * 2rem);
+}
+
+@media only screen and (min-width: 750px) {
+  h2,
+  .h2 {
+    font-size: calc(var(--font-heading-scale) * 2.4rem);
+  }
+}
+
+h3,
+.h3 {
+  font-size: calc(var(--font-heading-scale) * 1.7rem);
+}
+
+@media only screen and (min-width: 750px) {
+  h3,
+  .h3 {
+    font-size: calc(var(--font-heading-scale) * 1.8rem);
+  }
+}
+
+h4,
+.h4 {
+  font-family: var(--font-heading-family);
+  font-style: var(--font-heading-style);
+  font-size: calc(var(--font-heading-scale) * 1.5rem);
+}
+
+h5,
+.h5 {
+  font-size: calc(var(--font-heading-scale) * 1.2rem);
+}
+
+@media only screen and (min-width: 750px) {
+  h5,
+  .h5 {
+    font-size: calc(var(--font-heading-scale) * 1.3rem);
+  }
+}
+
+h6,
+.h6 {
+  color: rgba(var(--color-foreground), 0.75);
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+}
+
+blockquote {
+  font-style: italic;
+  color: rgba(var(--color-foreground), 0.75);
+  border-left: 0.2rem solid rgba(var(--color-foreground), 0.2);
+  padding-left: 1rem;
+}
+
+@media screen and (min-width: 750px) {
+  blockquote {
+    padding-left: 1.5rem;
+  }
+}
+
+.caption {
+  font-size: 1rem;
+  letter-spacing: 0.07rem;
+  line-height: calc(1 + 0.7 / var(--font-body-scale));
+}
+
+@media screen and (min-width: 750px) {
+  .caption {
+    font-size: 1.2rem;
+  }
+}
+
+.caption-with-letter-spacing {
+  font-size: 1rem;
+  letter-spacing: 0.13rem;
+  line-height: calc(1 + 0.2 / var(--font-body-scale));
+  text-transform: uppercase;
+}
+
+.caption-with-letter-spacing--medium {
+  font-size: 1.2rem;
+  letter-spacing: .16rem;
+}
+
+.caption-with-letter-spacing--large {
+  font-size: 1.4rem;
+  letter-spacing: 0.18rem;
+}
+
+.caption-large,
+.customer .field input,
+.customer select,
+.field__input,
+.form__label,
+.select__select {
+  font-size: 1.3rem;
+  line-height: calc(1 + 0.5 / var(--font-body-scale));
+  letter-spacing: 0.04rem;
+}
+
+.color-foreground {
+  color: rgb(var(--color-foreground));
+}
+
+table:not([class]) {
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: 1.4rem;
+  border-style: hidden;
+  box-shadow: 0 0 0 0.1rem rgba(var(--color-foreground), 0.2);
+  /* draws the table border  */
+}
+
+table:not([class]) td,
+table:not([class]) th {
+  padding: 1em;
+  border: 0.1rem solid rgba(var(--color-foreground), 0.2);
+}
+
+@media screen and (max-width: 749px) {
+  .small-hide {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 989px) {
+  .medium-hide {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .large-up-hide {
+    display: none !important;
+  }
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.light {
+  opacity: 0.7;
+}
+
+a:empty,
+ul:empty,
+dl:empty,
+div:empty,
+section:empty,
+article:empty,
+p:empty,
+h1:empty,
+h2:empty,
+h3:empty,
+h4:empty,
+h5:empty,
+h6:empty {
+  display: none;
+}
+
+.link,
+.customer a {
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  box-shadow: none;
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+  color: rgb(var(--color-link));
+  background-color: transparent;
+  font-size: 1.4rem;
+  font-family: inherit;
+}
+
+.link--text {
+  color: rgb(var(--color-foreground));
+}
+
+.link--text:hover {
+  color: rgba(var(--color-foreground), 0.75);
+}
+
+.link-with-icon {
+  display: inline-flex;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  margin-bottom: 4.5rem;
+  white-space: nowrap;
+}
+
+.link-with-icon .icon {
+  width: 1.5rem;
+  margin-left: 1rem;
+}
+
+a:not([href]) {
+  cursor: not-allowed;
+}
+
+.circle-divider::after {
+  content: '\2022';
+  margin: 0 1.3rem 0 1.5rem;
+}
+
+.circle-divider:last-of-type::after {
+  display: none;
+}
+
+hr {
+  border: none;
+  height: 0.1rem;
+  background-color: rgba(var(--color-foreground), 0.2);
+  display: block;
+  margin: 5rem 0;
+}
+
+@media screen and (min-width: 750px) {
+  hr {
+    margin: 7rem 0;
+  }
+}
+
+.full-unstyled-link {
+  text-decoration: none;
+  color: currentColor;
+  display: block;
+}
+
+.placeholder {
+  background-color: rgba(var(--color-foreground), 0.04);
+  color: rgba(var(--color-foreground), 0.55);
+  fill: rgba(var(--color-foreground), 0.55);
+}
+
+details > * {
+  box-sizing: border-box;
+}
+
+.break {
+  word-break: break-word;
+}
+
+.visibility-hidden {
+  visibility: hidden;
+}
+
+@media (prefers-reduced-motion) {
+  .motion-reduce {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+:root {
+  --duration-short: 100ms;
+  --duration-default: 200ms;
+  --duration-long: 500ms;
+}
+
+.underlined-link,
+.customer a {
+  color: rgba(var(--color-link), var(--alpha-link));
+  text-underline-offset: 0.3rem;
+  text-decoration-thickness: 0.1rem;
+  transition: text-decoration-thickness ease 100ms;
+}
+
+.underlined-link:hover,
+.customer a:hover {
+  color: rgb(var(--color-link));
+  text-decoration-thickness: 0.2rem;
+}
+
+.icon-arrow {
+  width: 1.5rem;
+}
+
+h3 .icon-arrow,
+.h3 .icon-arrow {
+  width: calc(var(--font-heading-scale) * 1.5rem);
+}
+
+/* arrow animation */
+.animate-arrow .icon-arrow path {
+  transform: translateX(-0.25rem);
+  transition: transform var(--duration-short) ease;
+}
+
+.animate-arrow:hover .icon-arrow path {
+  transform: translateX(-0.05rem);
+}
+
+/* base-details-summary */
+summary {
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+}
+
+summary .icon-caret {
+  position: absolute;
+  height: 0.6rem;
+  right: 1.5rem;
+  top: calc(50% - 0.2rem);
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.disclosure-has-popup {
+  position: relative;
+}
+
+.disclosure-has-popup[open] > summary::before {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: block;
+  cursor: default;
+  content: ' ';
+  background: transparent;
+}
+
+.disclosure-has-popup > summary::before {
+  display: none;
+}
+
+.disclosure-has-popup[open] > summary + * {
+  z-index: 100;
+}
+
+@media screen and (min-width: 750px) {
+  .disclosure-has-popup[open] > summary + * {
+    z-index: 4;
+  }
+
+  .facets .disclosure-has-popup[open] > summary + * {
+    z-index: 2;
+  }
+}
+
+/* base-focus */
+/*
+  Focus ring - default (with offset)
+*/
+
+*:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+*:focus-visible {
+  outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
+  outline-offset: 0.3rem;
+  box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),
+    0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
+}
+
+/* Fallback - for browsers that don't support :focus-visible, a fallback is set for :focus */
+.focused,
+.no-js *:focus {
+  outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
+  outline-offset: 0.3rem;
+  box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),
+    0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
+}
+
+/* Negate the fallback side-effect for browsers that support :focus-visible */
+.no-js *:focus:not(:focus-visible) {
+  outline: 0;
+  box-shadow: none;
+}
+
+/*
+  Focus ring - inset
+*/
+
+.focus-inset:focus-visible {
+  outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
+  outline-offset: -0.2rem;
+  box-shadow: 0 0 0.2rem 0 rgba(var(--color-foreground), 0.3);
+}
+
+.focused.focus-inset,
+.no-js .focus-inset:focus {
+  outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
+  outline-offset: -0.2rem;
+  box-shadow: 0 0 0.2rem 0 rgba(var(--color-foreground), 0.3);
+}
+
+.no-js .focus-inset:focus:not(:focus-visible) {
+  outline: 0;
+  box-shadow: none;
+}
+
+/*
+  Focus ring - none
+*/
+
+/* Dangerous for a11y - Use with care */
+.focus-none {
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+
+.focus-offset:focus-visible {
+  outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
+  outline-offset: 1rem;
+  box-shadow: 0 0 0 1rem rgb(var(--color-background)),
+    0 0 0.2rem 1.2rem rgba(var(--color-foreground), 0.3);
+}
+
+.focus-offset.focused,
+.no-js .focus-offset:focus {
+  outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
+  outline-offset: 1rem;
+  box-shadow: 0 0 0 1rem rgb(var(--color-background)),
+    0 0 0.2rem 1.2rem rgba(var(--color-foreground), 0.3);
+}
+
+.no-js .focus-offset:focus:not(:focus-visible) {
+  outline: 0;
+  box-shadow: none;
+}
+
+/* component-title */
+.title,
+.title-wrapper-with-link {
+  margin: 3rem 0 2rem;
+}
+
+.title-wrapper-with-link .title {
+  margin: 0;
+}
+
+.title .link {
+  font-size: inherit;
+}
+
+.title-wrapper {
+  margin-bottom: 3rem;
+}
+
+.title-wrapper-with-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.title--primary {
+  margin: 4rem 0;
+}
+
+.title-wrapper--self-padded-tablet-down,
+.title-wrapper--self-padded-mobile {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media screen and (min-width: 750px) {
+  .title-wrapper--self-padded-mobile {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .title,
+  .title-wrapper-with-link {
+    margin: 5rem 0 3rem;
+  }
+
+  .title--primary {
+    margin: 2rem 0;
+  }
+
+  .title-wrapper-with-link {
+    align-items: center;
+  }
+
+  .title-wrapper-with-link .title {
+    margin-bottom: 0;
+  }
+
+  .title-wrapper--self-padded-tablet-down {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.title-wrapper-with-link .link-with-icon {
+  margin: 0;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.title-wrapper-with-link .link-with-icon svg {
+  width: 1.5rem;
+}
+
+.title-wrapper-with-link a {
+  color: rgb(var(--color-link));
+  margin-top: 0;
+  flex-shrink: 0;
+}
+
+.title-wrapper--no-top-margin {
+  margin-top: 0;
+}
+
+.title-wrapper--no-top-margin > .title {
+  margin-top: 0;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  line-height: calc(1 + 0.8 / var(--font-body-scale));
+  letter-spacing: 0.06rem;
+  color: rgba(var(--color-foreground), 0.7);
+}
+
+.subtitle--small {
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+}
+
+.subtitle--medium {
+  font-size: 1.6rem;
+  letter-spacing: 0.08rem;
+}
+
+/* component-grid */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  padding: 0;
+  list-style: none;
+  column-gap: var(--grid-mobile-horizontal-spacing);
+  row-gap: var(--grid-mobile-vertical-spacing);
+}
+
+@media screen and (min-width: 750px) {
+  .grid {
+    column-gap: var(--grid-desktop-horizontal-spacing);
+    row-gap: var(--grid-desktop-vertical-spacing);
+  }
+}
+
+.grid:last-child {
+  margin-bottom: 0;
+}
+
+.grid__item {
+  width: calc(25% - var(--grid-mobile-horizontal-spacing) * 3 / 4);
+  max-width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 750px) {
+  .grid__item {
+    width: calc(25% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+    max-width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
+}
+
+.grid--gapless.grid {
+  column-gap: 0;
+  row-gap: 0;
+}
+
+@media screen and (max-width: 749px) {
+  .grid__item.slider__slide--full-width {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.grid--1-col .grid__item {
+  max-width: 100%;
+  width: 100%;
+}
+
+.grid--3-col .grid__item {
+  width: calc(33.33% - var(--grid-mobile-horizontal-spacing) * 2 / 3);
+}
+
+@media screen and (min-width: 750px) {
+  .grid--3-col .grid__item {
+    width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
+  }
+}
+
+.grid--2-col .grid__item {
+  width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
+}
+
+@media screen and (min-width: 750px) {
+  .grid--2-col .grid__item {
+    width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
+
+  .grid--4-col-tablet .grid__item {
+    width: calc(25% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+  }
+
+  .grid--3-col-tablet .grid__item {
+    width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
+  }
+
+  .grid--2-col-tablet .grid__item {
+    width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
+}
+
+@media screen and (max-width: 989px) {
+  .grid--1-col-tablet-down .grid__item {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .slider--tablet.grid--peek {
+    margin: 0;
+    width: 100%;
+  }
+
+  .slider--tablet.grid--peek .grid__item {
+    box-sizing: content-box;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .grid--6-col-desktop .grid__item {
+    width: calc(16.66% - var(--grid-desktop-horizontal-spacing) * 5 / 6);
+    max-width: calc(16.66% - var(--grid-desktop-horizontal-spacing) * 5 / 6);
+  }
+
+  .grid--5-col-desktop .grid__item {
+    width: calc(20% - var(--grid-desktop-horizontal-spacing) * 4 / 5);
+    max-width: calc(20% - var(--grid-desktop-horizontal-spacing) * 4 / 5);
+  }
+
+  .grid--4-col-desktop .grid__item {
+    width: calc(25% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+    max-width: calc(25% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+  }
+
+  .grid--3-col-desktop .grid__item {
+    width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
+    max-width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
+  }
+
+  .grid--2-col-desktop .grid__item {
+    width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+    max-width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .grid--1-col-desktop {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .grid--1-col-desktop .grid__item {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .grid--peek.slider--mobile {
+    margin: 0;
+    width: 100%;
+  }
+
+  .grid--peek.slider--mobile .grid__item {
+    box-sizing: content-box;
     margin: 0;
   }
 
-  .list-menu--inline {
+  .grid--peek .grid__item {
+    min-width: 35%;
+  }
+
+  .grid--peek.slider .grid__item:first-of-type {
+    margin-left: 1.5rem;
+  }
+
+  /* Fix to show some space at the end of our sliders in all browsers */
+  .grid--peek.slider:after {
+    margin-left: calc(-1 * var(--grid-mobile-horizontal-spacing));
+  }
+
+  .grid--2-col-tablet-down .grid__item {
+    width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
+  }
+
+  .slider--tablet.grid--peek.grid--2-col-tablet-down .grid__item,
+  .grid--peek .grid__item {
+    width: calc(50% - var(--grid-mobile-horizontal-spacing) - 3rem);
+  }
+
+  .slider--tablet.grid--peek.grid--1-col-tablet-down .grid__item,
+  .slider--mobile.grid--peek.grid--1-col-tablet-down .grid__item  {
+    width: calc(100% - var(--grid-mobile-horizontal-spacing) - 3rem);
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 989px) {
+  .slider--tablet.grid--peek .grid__item {
+    width: calc(25% - var(--grid-desktop-horizontal-spacing) - 3rem);
+  }
+
+  .slider--tablet.grid--peek.grid--3-col-tablet .grid__item {
+    width: calc(33.33% - var(--grid-desktop-horizontal-spacing) - 3rem);
+  }
+
+  .slider--tablet.grid--peek.grid--2-col-tablet .grid__item,
+  .slider--tablet.grid--peek.grid--2-col-tablet-down .grid__item {
+    width: calc(50% - var(--grid-desktop-horizontal-spacing) - 3rem);
+  }
+
+  .slider--tablet.grid--peek .grid__item:first-of-type {
+    margin-left: 1.5rem;
+  }
+
+  .grid--2-col-tablet-down .grid__item {
+    width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
+
+  .grid--1-col-tablet-down.grid--peek .grid__item {
+    width: calc(100% - var(--grid-desktop-horizontal-spacing) - 3rem);
+  }
+}
+
+/* component-media */
+.media {
+  display: block;
+  background-color: rgba(var(--color-foreground), 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.media--transparent {
+  background-color: transparent;
+}
+
+.media > *:not(.zoom):not(.deferred-media__poster-button),
+.media model-viewer {
+  display: block;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.media > img {
+  object-fit: cover;
+  object-position: center center;
+  transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.media--square {
+  padding-bottom: 100%;
+}
+
+.media--portrait {
+  padding-bottom: 125%;
+}
+
+.media--landscape {
+  padding-bottom: 66.6%;
+}
+
+.media--cropped {
+  padding-bottom: 56%;
+}
+
+.media--16-9 {
+  padding-bottom: 56.25%;
+}
+
+.media--circle {
+  padding-bottom: 100%;
+  border-radius: 50%;
+}
+
+.media.media--hover-effect > img + img {
+  opacity: 0;
+}
+
+@media screen and (min-width: 990px) {
+  .media--cropped {
+    padding-bottom: 63%;
+  }
+}
+
+deferred-media {
+  display: block;
+}
+
+/* component-button */
+/* Button - default */
+
+.button,
+.shopify-challenge__button,
+.customer button,
+button.shopify-payment-button__button--unbranded,
+.shopify-payment-button [role="button"],
+.cart__dynamic-checkout-buttons [role='button'],
+.cart__dynamic-checkout-buttons iframe {
+  --shadow-horizontal-offset: var(--buttons-shadow-horizontal-offset);
+  --shadow-vertical-offset: var(--buttons-shadow-vertical-offset);
+  --shadow-blur-radius: var(--buttons-shadow-blur-radius);
+  --shadow-opacity: var(--buttons-shadow-opacity);
+  --shadow-visible: var(--buttons-shadow-visible);
+  --border-offset: var(--buttons-border-offset); /* reduce radius edge artifacts */
+  --border-opacity: calc(1 - var(--buttons-border-opacity));
+  border-radius: var(--buttons-radius-outset);
+  position: relative;
+}
+
+.button,
+.shopify-challenge__button,
+.customer button,
+button.shopify-payment-button__button--unbranded {
+  min-width: calc(12rem + var(--buttons-border-width) * 2);
+  min-height: calc(4.5rem + var(--buttons-border-width) * 2);
+}
+
+.shopify-payment-button__button--branded {
+  z-index: auto;
+}
+
+.cart__dynamic-checkout-buttons iframe {
+  box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius) rgba(var(--color-base-text), var(--shadow-opacity));
+}
+
+.button,
+.shopify-challenge__button,
+.customer button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  padding: 0 3rem;
+  cursor: pointer;
+  font: inherit;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: rgb(var(--color-button-text));
+  transition: box-shadow var(--duration-short) ease;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: rgba(var(--color-button), var(--alpha-button-background));
+}
+
+.button:before,
+.shopify-challenge__button:before,
+.customer button:before,
+.shopify-payment-button__button--unbranded:before,
+.shopify-payment-button [role="button"]:before,
+.cart__dynamic-checkout-buttons [role='button']:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: var(--buttons-radius-outset);
+  box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius) rgba(var(--color-shadow), var(--shadow-opacity));
+}
+
+.button:after,
+.shopify-challenge__button:after,
+.customer button:after,
+.shopify-payment-button__button--unbranded:after {
+  content: '';
+  position: absolute;
+  top: var(--buttons-border-width);
+  right: var(--buttons-border-width);
+  bottom: var(--buttons-border-width);
+  left: var(--buttons-border-width);
+  z-index: 1;
+  border-radius: var(--buttons-radius);
+  box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
+    0 0 0 var(--buttons-border-width) rgba(var(--color-button), var(--alpha-button-background));
+  transition: box-shadow var(--duration-short) ease;
+}
+
+.button:not([disabled]):hover::after,
+.shopify-challenge__button:hover::after,
+.customer button:hover::after,
+.shopify-payment-button__button--unbranded:hover::after {
+  --border-offset: 1.3px;
+  box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
+    0 0 0 calc(var(--buttons-border-width) + 1px) rgba(var(--color-button), var(--alpha-button-background));
+}
+
+.button--secondary:after {
+  --border-opacity: var(--buttons-border-opacity);
+}
+
+.button:focus-visible,
+.button:focus,
+.button.focused,
+.shopify-payment-button__button--unbranded:focus-visible,
+.shopify-payment-button [role="button"]:focus-visible,
+.shopify-payment-button__button--unbranded:focus,
+.shopify-payment-button [role="button"]:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),
+    0 0 0 0.5rem rgba(var(--color-foreground), 0.5),
+    0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
+}
+
+.button:focus:not(:focus-visible):not(.focused),
+.shopify-payment-button__button--unbranded:focus:not(:focus-visible):not(.focused),
+.shopify-payment-button [role="button"]:focus:not(:focus-visible):not(.focused) {
+  box-shadow: inherit;
+}
+
+.button::selection,
+.shopify-challenge__button::selection,
+.customer button::selection {
+  background-color: rgba(var(--color-button-text), 0.3);
+}
+
+.button,
+.button-label,
+.shopify-challenge__button,
+.customer button {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  line-height: calc(1 + 0.2 / var(--font-body-scale));
+}
+
+.button--tertiary {
+  font-size: 1.2rem;
+  padding: 1rem 1.5rem;
+  min-width: calc(9rem + var(--buttons-border-width) * 2);
+  min-height: calc(3.5rem + var(--buttons-border-width) * 2);
+}
+
+.button--small {
+  padding: 1.2rem 2.6rem;
+}
+
+/* Button - other */
+
+.button:disabled,
+.button[aria-disabled='true'],
+.button.disabled,
+.customer button:disabled,
+.customer button[aria-disabled='true'],
+.customer button.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.button--full-width {
+  display: flex;
+  width: 100%;
+}
+
+.button.loading {
+  color: transparent;
+  position: relative;
+}
+
+@media screen and (forced-colors: active) {
+  .button.loading {
+    color: rgb(var(--color-foreground));
+  }
+}
+
+.button.loading > .loading-overlay__spinner {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.button.loading > .loading-overlay__spinner .spinner {
+  width: fit-content;
+}
+
+.button.loading > .loading-overlay__spinner .path {
+  stroke: rgb(var(--color-button-text));
+}
+
+/* Button - social share */
+
+.share-button {
+  display: block;
+  position: relative;
+}
+
+.share-button details {
+  width: fit-content;
+}
+
+.share-button__button {
+  font-size: 1.4rem;
+  display: flex;
+  min-height: 2.4rem;
+  align-items: center;
+  color: rgb(var(--color-link));
+  margin-left: 0;
+  padding-left: 0;
+}
+
+details[open] > .share-button__fallback {
+  animation: animateMenuOpen var(--duration-default) ease;
+}
+
+.share-button__button:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+}
+
+.share-button__button,
+.share-button__fallback button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.share-button__button .icon-share {
+  height: 1.2rem;
+  margin-right: 1rem;
+  width: 1.3rem;
+}
+
+.share-button__fallback {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 3rem;
+  left: 0.1rem;
+  z-index: 3;
+  width: 100%;
+  min-width: max-content;
+  border-radius: var(--inputs-radius);
+  border: 0;
+}
+
+.share-button__fallback:after {
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  top: var(--inputs-border-width);
+  right: var(--inputs-border-width);
+  bottom: var(--inputs-border-width);
+  left: var(--inputs-border-width);
+  border: 0.1rem solid transparent;
+  border-radius: var(--inputs-radius);
+  box-shadow: 0 0 0 var(--inputs-border-width) rgba(var(--color-foreground), var(--inputs-border-opacity));
+  transition: box-shadow var(--duration-short) ease;
+  z-index: 1;
+}
+
+.share-button__fallback:before {
+  background: rgb(var(--color-background));
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--inputs-radius-outset);
+  box-shadow: var(--inputs-shadow-horizontal-offset) var(--inputs-shadow-vertical-offset) var(--inputs-shadow-blur-radius) rgba(var(--color-base-text), var(--inputs-shadow-opacity));
+  z-index: -1;
+}
+
+.share-button__fallback button {
+  width: 4.4rem;
+  height: 4.4rem;
+  padding: 0;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: var(--inputs-border-width);
+}
+
+.share-button__fallback button:hover {
+  color: rgba(var(--color-foreground), 0.75);
+}
+
+.share-button__fallback button:hover svg {
+  transform: scale(1.07);
+}
+
+.share-button__close:not(.hidden) + .share-button__copy {
+  display: none;
+}
+
+.share-button__close,
+.share-button__copy {
+  background-color: transparent;
+  color: rgb(var(--color-foreground));
+}
+
+.share-button__copy:focus-visible,
+.share-button__close:focus-visible {
+  background-color: rgb(var(--color-background));
+  z-index: 2;
+}
+
+.share-button__copy:focus,
+.share-button__close:focus {
+  background-color: rgb(var(--color-background));
+  z-index: 2;
+}
+
+.field:not(:focus-visible):not(.focused) + .share-button__copy:not(:focus-visible):not(.focused),
+.field:not(:focus-visible):not(.focused) + .share-button__close:not(:focus-visible):not(.focused) {
+  background-color: inherit;
+}
+
+.share-button__fallback .field:after,
+.share-button__fallback .field:before {
+  content: none;
+}
+
+.share-button__fallback .field {
+  border-radius: 0;
+  min-width: auto;
+  min-height: auto;
+  transition: none;
+}
+
+.share-button__fallback .field__input:focus,
+.share-button__fallback .field__input:-webkit-autofill {
+  outline: 0.2rem solid rgba(var(--color-foreground),.5);
+  outline-offset: 0.1rem;
+  box-shadow: 0 0 0 0.1rem rgb(var(--color-background)),0 0 0.5rem 0.4rem rgba(var(--color-foreground),.3);
+}
+
+.share-button__fallback .field__input {
+  box-shadow: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  filter: none;
+  min-width: auto;
+  min-height: auto;
+}
+
+.share-button__fallback .field__input:hover {
+  box-shadow: none;
+}
+
+.share-button__fallback .icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.share-button__message:not(:empty) {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  padding: 0.8rem 0 0.8rem 1.5rem;
+  margin: var(--inputs-border-width);
+}
+
+.share-button__message:not(:empty):not(.hidden) ~ * {
+  display: none;
+}
+
+/* component-form */
+.field__input,
+.select__select,
+.customer .field input,
+.customer select {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: rgb(var(--color-background));
+  color: rgb(var(--color-foreground));
+  font-size: 1.6rem;
+  width: 100%;
+  box-sizing: border-box;
+  transition: box-shadow var(--duration-short) ease;
+  border-radius: var(--inputs-radius);
+  height: 4.5rem;
+  min-height: calc(var(--inputs-border-width) * 2);
+  min-width: calc(7rem + (var(--inputs-border-width) * 2));
+  position: relative;
+  border: 0;
+}
+
+.field:before,
+.select:before,
+.customer .field:before,
+.customer select:before,
+.localization-form__select:before {
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--inputs-radius-outset);
+  box-shadow: var(--inputs-shadow-horizontal-offset) var(--inputs-shadow-vertical-offset) var(--inputs-shadow-blur-radius) rgba(var(--color-base-text), var(--inputs-shadow-opacity));
+  z-index: -1;
+}
+
+.field:after,
+.select:after,
+.customer .field:after,
+.customer select:after,
+.localization-form__select:after {
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  top: var(--inputs-border-width);
+  right: var(--inputs-border-width);
+  bottom: var(--inputs-border-width);
+  left: var(--inputs-border-width);
+  border: 0.1rem solid transparent;
+  border-radius: var(--inputs-radius);
+  box-shadow: 0 0 0 var(--inputs-border-width) rgba(var(--color-foreground), var(--inputs-border-opacity));
+  transition: box-shadow var(--duration-short) ease;
+  z-index: 1;
+}
+
+.select__select {
+  font-family: var(--font-body-family);
+  font-style: var(--font-body-style);
+  font-weight: var(--font-body-weight);
+  font-size: 1.2rem;
+  color: rgba(var(--color-foreground), 0.75);
+}
+
+.field:hover.field:after,
+.select:hover.select:after,
+.select__select:hover.select__select:after,
+.customer .field:hover.field:after,
+.customer select:hover.select:after,
+.localization-form__select:hover.localization-form__select:after {
+  box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground),var(--inputs-border-opacity));
+  outline: 0;
+  border-radius: var(--inputs-radius);
+}
+
+.field__input:focus-visible,
+.select__select:focus-visible,
+.customer .field input:focus-visible,
+.customer select:focus-visible,
+.localization-form__select:focus-visible.localization-form__select:after {
+  box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground));
+  outline: 0;
+  border-radius: var(--inputs-radius);
+}
+
+.field__input:focus,
+.select__select:focus,
+.customer .field input:focus,
+.customer select:focus,
+.localization-form__select:focus.localization-form__select:after {
+  box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground));
+  outline: 0;
+  border-radius: var(--inputs-radius);
+}
+
+.localization-form__select:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.text-area,
+.select {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+/* Select */
+
+.select .icon-caret,
+.customer select + svg {
+  height: 0.6rem;
+  pointer-events: none;
+  position: absolute;
+  top: calc(50% - 0.2rem);
+  right: calc(var(--inputs-border-width) + 1.5rem);
+}
+
+.select__select,
+.customer select {
+  cursor: pointer;
+  line-height: calc(1 + 0.6 / var(--font-body-scale));
+  padding: 0 2rem;
+  margin: var(--inputs-border-width);
+  min-height: calc(var(--inputs-border-width) * 2);
+}
+
+/* Field */
+
+.field {
+  position: relative;
+  width: 100%;
+  display: flex;
+  transition: box-shadow var(--duration-short) ease;
+}
+
+.customer .field {
+  display: flex;
+}
+
+.field--with-error {
+  flex-wrap: wrap;
+}
+
+.field__input,
+.customer .field input {
+  flex-grow: 1;
+  text-align: left;
+  padding: 1.5rem;
+  margin: var(--inputs-border-width);
+  transition: box-shadow var(--duration-short) ease;
+}
+
+.field__label,
+.customer .field label {
+  font-size: 1.6rem;
+  left: calc(var(--inputs-border-width) + 2rem);
+  top: calc(1rem + var(--inputs-border-width));
+  margin-bottom: 0;
+  pointer-events: none;
+  position: absolute;
+  transition: top var(--duration-short) ease,
+    font-size var(--duration-short) ease;
+  color: rgba(var(--color-foreground), 0.75);
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+}
+
+.field__input:focus ~ .field__label,
+.field__input:not(:placeholder-shown) ~ .field__label,
+.field__input:-webkit-autofill ~ .field__label,
+.customer .field input:focus ~ label,
+.customer .field input:not(:placeholder-shown) ~ label,
+.customer .field input:-webkit-autofill ~ label {
+  font-size: 1rem;
+  top: calc(var(--inputs-border-width) + 0.5rem);
+  left: calc(var(--inputs-border-width) + 2rem);
+  letter-spacing: 0.04rem;
+}
+
+.field__input:focus,
+.field__input:not(:placeholder-shown),
+.field__input:-webkit-autofill,
+.customer .field input:focus,
+.customer .field input:not(:placeholder-shown),
+.customer .field input:-webkit-autofill {
+  padding: 2.2rem 1.5rem 0.8rem 2rem;
+  margin: var(--inputs-border-width);
+}
+
+.field__input::-webkit-search-cancel-button,
+.customer .field input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.field__input::placeholder,
+.customer .field input::placeholder {
+  opacity: 0;
+}
+
+.field__button {
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  color: currentColor;
+  cursor: pointer;
+  display: flex;
+  height: 4.4rem;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 4.4rem;
+}
+
+.field__button > svg {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.field__input:-webkit-autofill ~ .field__button,
+.field__input:-webkit-autofill ~ .field__label,
+.customer .field input:-webkit-autofill ~ label {
+  color: rgb(0, 0, 0);
+}
+
+/* Text area */
+
+.text-area {
+  font-family: var(--font-body-family);
+  font-style: var(--font-body-style);
+  font-weight: var(--font-body-weight);
+  min-height: 10rem;
+  resize: none;
+}
+
+input[type='checkbox'] {
+  display: inline-block;
+  width: auto;
+  margin-right: 0.5rem;
+}
+
+/* Form global */
+
+.form__label {
+  display: block;
+  margin-bottom: 0.6rem;
+}
+
+.form__message {
+  align-items: center;
+  display: flex;
+  font-size: 1.4rem;
+  line-height: 1;
+  margin-top: 1rem;
+}
+
+.form__message--large {
+  font-size: 1.6rem;
+}
+
+.customer .field .form__message {
+  font-size: 1.4rem;
+  text-align: left;
+}
+
+.form__message .icon,
+.customer .form__message svg {
+  flex-shrink: 0;
+  height: 1.3rem;
+  margin-right: 0.5rem;
+  width: 1.3rem;
+}
+
+.form__message--large .icon,
+.customer .form__message svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 1rem;
+}
+
+.customer .field .form__message svg {
+  align-self: start;
+}
+
+.form-status {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.form-status-list {
+  padding: 0;
+  margin: 2rem 0 4rem;
+}
+
+.form-status-list li {
+  list-style-position: inside;
+}
+
+.form-status-list .link::first-letter {
+  text-transform: capitalize;
+}
+
+/* component-quantity */
+.quantity {
+  color: rgba(var(--color-foreground));
+  position: relative;
+  width: calc(14rem / var(--font-body-scale) + var(--inputs-border-width) * 2);
+  display: flex;
+  border-radius: var(--inputs-radius);
+  min-height: calc((var(--inputs-border-width) * 2) + 4.5rem);
+}
+
+.quantity:after {
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  top: var(--inputs-border-width);
+  right: var(--inputs-border-width);
+  bottom: var(--inputs-border-width);
+  left: var(--inputs-border-width);
+  border: 0.1rem solid transparent;
+  border-radius: var(--inputs-radius);
+  box-shadow: 0 0 0 var(--inputs-border-width) rgba(var(--color-foreground), var(--inputs-border-opacity));
+  transition: box-shadow var(--duration-short) ease;
+  z-index: 1;
+}
+
+.quantity:before {
+  background: rgb(var(--color-background));
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--inputs-radius-outset);
+  box-shadow: var(--inputs-shadow-horizontal-offset) var(--inputs-shadow-vertical-offset) var(--inputs-shadow-blur-radius) rgba(var(--color-base-text), var(--inputs-shadow-opacity));
+  z-index: -1;
+}
+
+.quantity__input {
+  color: currentColor;
+  font-size: 1.4rem;
+  font-weight: 500;
+  opacity: 0.85;
+  text-align: center;
+  background-color: transparent;
+  border: 0;
+  padding: 0 0.5rem;
+  width: 100%;
+  flex-grow: 1;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.quantity__button {
+  width: calc(4.5rem / var(--font-body-scale));
+  flex-shrink: 0;
+  font-size: 1.8rem;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(var(--color-foreground));
+  padding: 0;
+}
+
+.quantity__button:first-child {
+  margin-left: calc(var(--inputs-border-width));
+}
+
+.quantity__button:last-child {
+  margin-right: calc(var(--inputs-border-width));
+}
+
+.quantity__button svg {
+  width: 1rem;
+  pointer-events: none;
+}
+
+.quantity__button:focus-visible,
+.quantity__input:focus-visible {
+  background-color: rgb(var(--color-background));
+  z-index: 2;
+}
+
+.quantity__button:focus,
+.quantity__input:focus {
+  background-color: rgb(var(--color-background));
+  z-index: 2;
+}
+
+.quantity__button:not(:focus-visible):not(.focused),
+.quantity__input:not(:focus-visible):not(.focused) {
+  box-shadow: inherit;
+  background-color: inherit;
+}
+
+.quantity__input:-webkit-autofill,
+.quantity__input:-webkit-autofill:hover,
+.quantity__input:-webkit-autofill:active {
+  box-shadow: 0 0 0 10rem rgb(var(--color-background)) inset !important;
+  -webkit-box-shadow: 0 0 0 10rem rgb(var(--color-background)) inset !important;
+}
+
+.quantity__input::-webkit-outer-spin-button,
+.quantity__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.quantity__input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+/* component-modal */
+.modal__toggle {
+  list-style-type: none;
+}
+
+.no-js details[open] .modal__toggle {
+  position: absolute;
+  z-index: 5;
+}
+
+.modal__toggle-close {
+  display: none;
+}
+
+.no-js details[open] svg.modal__toggle-close {
+  display: flex;
+  z-index: 1;
+  height: 1.7rem;
+  width: 1.7rem;
+}
+
+.modal__toggle-open {
+  display: flex;
+}
+
+.no-js details[open] .modal__toggle-open {
+  display: none;
+}
+
+.no-js .modal__close-button.link {
+  display: none;
+}
+
+.modal__close-button.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem;
+  height: 4.4rem;
+  width: 4.4rem;
+  background-color: transparent;
+}
+
+.modal__close-button .icon {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+.modal__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(var(--color-background));
+  z-index: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.media-modal {
+  cursor: zoom-out;
+}
+
+.media-modal .deferred-media {
+  cursor: initial;
+}
+
+/* component-cart-count-bubble */
+.cart-count-bubble:empty {
+  display: none;
+}
+
+.cart-count-bubble {
+  position: absolute;
+  background-color: rgb(var(--color-button));
+  color: rgb(var(--color-button-text));
+  height: 1.7rem;
+  width: 1.7rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  bottom: 0.8rem;
+  left: 2.2rem;
+  line-height: calc(1 + 0.1 / var(--font-body-scale));
+}
+
+/* section-announcement-bar */
+#shopify-section-announcement-bar {
+  z-index: 4;
+}
+
+.announcement-bar {
+  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  color: rgb(var(--color-foreground));
+}
+
+.announcement-bar__link {
+  display: block;
+  width: 100%;
+  padding: 1rem 0;
+  text-decoration: none;
+}
+
+.announcement-bar__link:hover {
+  color: rgb(var(--color-foreground));
+  background-color: rgba(var(--color-card-hover), 0.06);
+}
+
+.announcement-bar__link .icon-arrow {
+  display: inline-block;
+  pointer-events: none;
+  margin-left: 0.8rem;
+  vertical-align: middle;
+  margin-bottom: 0.2rem;
+}
+
+.announcement-bar__link .announcement-bar__message {
+  padding: 0;
+}
+
+.announcement-bar__message {
+  padding: 1rem 0;
+  margin: 0;
+  letter-spacing: 0.1rem;
+}
+
+/* section-header */
+#shopify-section-header {
+  z-index: 3;
+}
+
+.shopify-section-header-sticky {
+  position: sticky;
+  top: 0;
+}
+
+.shopify-section-header-hidden {
+  transform: translateY(-100%);
+}
+
+.shopify-section-header-hidden.menu-open {
+  transform: translateY(0);
+}
+
+#shopify-section-header.animate {
+  transition: transform 0.15s ease-out;
+}
+
+/* Main Header Layout */
+.header-wrapper {
+  display: block;
+  position: relative;
+  background-color: rgb(var(--color-background));
+  z-index: 1;
+}
+
+.header-wrapper--border-bottom {
+  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+}
+
+.header {
+  display: grid;
+  grid-template-areas: 'left-icon heading icons';
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+}
+
+@media screen and (min-width: 990px) {
+  .header--top-left,
+  .header--middle-left:not(.header--has-menu) {
+    grid-template-areas:
+      'heading icons'
+      'navigation navigation';
+    grid-template-columns: 1fr auto;
+  }
+
+  .header--middle-left {
+    grid-template-areas: 'heading navigation icons';
+    grid-template-columns: auto auto 1fr;
+    column-gap: 2rem;
+  }
+
+  .header--middle-center {
+    grid-template-areas: 'navigation heading icons';
+    grid-template-columns: 1fr auto 1fr;
+    column-gap: 2rem;
+  }
+
+  .header--top-center {
+    grid-template-areas:
+      'left-icon heading icons'
+      'navigation navigation navigation';
+  }
+
+  .header:not(.header--middle-left, .header--middle-center) .header__inline-menu {
+    margin-top: 1.05rem;
+  }
+}
+
+.header *[tabindex='-1']:focus {
+  outline: none;
+}
+
+.header__heading {
+  margin: 0;
+  line-height: 0;
+}
+
+.header > .header__heading-link {
+  line-height: 0;
+}
+
+.header__heading,
+.header__heading-link {
+  grid-area: heading;
+  justify-self: center;
+}
+
+.header__heading-link {
+  display: inline-block;
+  padding: 0.75rem;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.header__heading-link:hover .h2 {
+  color: rgb(var(--color-foreground));
+}
+
+.header__heading-link .h2 {
+  line-height: 1;
+  color: rgba(var(--color-foreground), 0.75);
+}
+
+.header__heading-logo {
+  height: auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 989px) {
+  .header__heading,
+  .header__heading-link {
+    text-align: center;
+  }
+
+  .header--mobile-left .header__heading,
+  .header--mobile-left .header__heading-link {
+    text-align: center;
+    justify-self: start;
+  }
+
+  .header--mobile-left {
+    grid-template-columns: auto 2fr 1fr;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .header__heading-link {
+    margin-left: -0.75rem;
+  }
+
+  .header__heading,
+  .header__heading-link {
+    justify-self: start;
+  }
+
+  .header--top-center .header__heading-link,
+  .header--top-center .header__heading {
+    justify-self: center;
+    text-align: center;
+  }
+}
+
+/* Header icons */
+.header__icons {
+  display: flex;
+  grid-area: icons;
+  justify-self: end;
+}
+
+.header__icon:not(.header__icon--summary),
+.header__icon span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__icon {
+  color: rgb(var(--color-foreground));
+}
+
+.header__icon span {
+  height: 100%;
+}
+
+.header__icon::after {
+  content: none;
+}
+
+.header__icon:hover .icon,
+.modal__close-button:hover .icon {
+  transform: scale(1.07);
+}
+
+.header__icon .icon {
+  height: 2rem;
+  width: 2rem;
+  fill: none;
+  vertical-align: middle;
+}
+
+.header__icon,
+.header__icon--cart .icon {
+  height: 4.4rem;
+  width: 4.4rem;
+  padding: 0;
+}
+
+.header__icon--cart {
+  position: relative;
+  margin-right: -1.2rem;
+}
+
+@media screen and (max-width: 989px) {
+  menu-drawer ~ .header__icons .header__icon--account {
+    display: none;
+  }
+}
+
+.header__icon--menu[aria-expanded="true"]::before {
+  content: "";
+  top: 100%;
+  left: 0;
+  height: calc(var(--viewport-height, 100vh) - (var(--header-bottom-position, 100%)));
+  width: 100%;
+  display: block;
+  position: absolute;
+  background: rgba(var(--color-foreground), 0.5);
+}
+
+/* Search */
+menu-drawer + .header__search {
+  display: none;
+}
+
+.header > .header__search {
+  grid-area: left-icon;
+  justify-self: start;
+}
+
+.header:not(.header--has-menu) * > .header__search {
+  display: none;
+}
+
+.header__search {
+  display: inline-flex;
+  line-height: 0;
+}
+
+.header--top-center > .header__search {
+  display: none;
+}
+
+.header--top-center * > .header__search {
+  display: inline-flex;
+}
+
+@media screen and (min-width: 990px) {
+  .header:not(.header--top-center) * > .header__search,
+  .header--top-center > .header__search {
     display: inline-flex;
-    flex-wrap: wrap;
   }
 
-  summary.list-menu__item {
-    padding-right: 2.7rem;
+  .header:not(.header--top-center) > .header__search,
+  .header--top-center * > .header__search {
+    display: none;
+  }
+}
+
+.no-js .predictive-search {
+  display: none;
+}
+
+details[open] > .search-modal {
+  opacity: 1;
+  animation: animateMenuOpen var(--duration-default) ease;
+}
+
+details[open] .modal-overlay {
+  display: block;
+}
+
+details[open] .modal-overlay::after {
+  position: absolute;
+  content: '';
+  background-color: rgb(var(--color-foreground), 0.5);
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 100vh;
+}
+
+.no-js details[open] > .header__icon--search {
+  top: 1rem;
+  right: 0.5rem;
+}
+
+.search-modal {
+  opacity: 0;
+  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  min-height: calc(100% + var(--inputs-margin-offset) + (2 * var(--inputs-border-width)));
+  height: 100%;
+}
+
+.search-modal__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 5rem 0 1rem;
+  line-height: calc(1 + 0.8 / var(--font-body-scale));
+  position: relative;
+}
+
+.search-modal__content-bottom {
+  bottom: calc((var(--inputs-margin-offset) / 2) );
+}
+
+.search-modal__content-top {
+  top: calc((var(--inputs-margin-offset) / 2) );
+}
+
+.search-modal__form {
+  width: 100%;
+}
+
+.search-modal__close-button {
+  position: absolute;
+  right: 0.3rem;
+}
+
+@media screen and (min-width: 750px) {
+  .search-modal__close-button {
+    right: 1rem;
   }
 
-  .list-menu__item {
-    display: flex;
-    align-items: center;
-    line-height: calc(1 + 0.3 / var(--font-body-scale));
+  .search-modal__content {
+    padding: 0 6rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .search-modal__form {
+    max-width: 47.8rem;
   }
 
-  .list-menu__item--link {
-    text-decoration: none;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    line-height: calc(1 + 0.8 / var(--font-body-scale));
+  .search-modal__close-button {
+    position: initial;
+    margin-left: 0.5rem;
+  }
+}
+
+/* Header menu drawer */
+.header__icon--menu .icon {
+  display: block;
+  position: absolute;
+  opacity: 1;
+  transform: scale(1);
+  transition: transform 150ms ease, opacity 150ms ease;
+}
+
+details:not([open]) > .header__icon--menu .icon-close,
+details[open] > .header__icon--menu .icon-hamburger {
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+.js details[open]:not(.menu-opening) > .header__icon--menu .icon-close {
+  visibility: hidden;
+}
+
+.js details[open]:not(.menu-opening) > .header__icon--menu .icon-hamburger {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1.07);
+}
+
+.js details > .header__submenu {
+  opacity: 0;
+  transform: translateY(-1.5rem);
+}
+
+details[open] > .header__submenu {
+  animation: animateMenuOpen var(--duration-default) ease;
+  animation-fill-mode: forwards;
+  z-index: 1;
+}
+
+@media (prefers-reduced-motion) {
+  details[open] > .header__submenu {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Header menu */
+.header__inline-menu {
+  margin-left: -1.2rem;
+  grid-area: navigation;
+  display: none;
+}
+
+.header--top-center .header__inline-menu,
+.header--top-center .header__heading-link {
+  margin-left: 0;
+}
+
+@media screen and (min-width: 990px) {
+  .header__inline-menu {
+    display: block;
   }
 
-  @media screen and (min-width: 750px) {
-    .list-menu__item--link {
-      padding-bottom: 0.5rem;
-      padding-top: 0.5rem;
-    }
-  }
-</style><style data-shopify>.header {
-    padding-top: 0px;
-    padding-bottom: 0px;
+  .header--top-center .header__inline-menu {
+    justify-self: center;
   }
 
-  .section-header {
-    margin-bottom: 0px;
+  .header--top-center .header__inline-menu > .list-menu--inline {
+    justify-content: center;
   }
 
-  @media screen and (min-width: 750px) {
-    .section-header {
-      margin-bottom: 0px;
-    }
+  .header--middle-left .header__inline-menu {
+    margin-left: 0;
+  }
+}
+
+.header__menu {
+  padding: 0 1rem;
+}
+
+.header__menu-item {
+  padding: 1.2rem;
+  text-decoration: none;
+  color: rgba(var(--color-foreground), 0.75);
+}
+
+.header__menu-item:hover {
+  color: rgb(var(--color-foreground));
+}
+
+.header__menu-item span {
+  transition: text-decoration var(--duration-short) ease;
+}
+
+.header__menu-item:hover span {
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+}
+
+details[open] > .header__menu-item {
+  text-decoration: underline;
+}
+
+details[open]:hover > .header__menu-item {
+  text-decoration-thickness: 0.2rem;
+}
+
+details[open] > .header__menu-item .icon-caret {
+  transform: rotate(180deg);
+}
+
+.header__active-menu-item {
+  transition: text-decoration-thickness var(--duration-short) ease;
+  color: rgb(var(--color-foreground));
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+}
+
+.header__menu-item:hover .header__active-menu-item {
+  text-decoration-thickness: 0.2rem;
+}
+
+.header__submenu {
+  transition: opacity var(--duration-default) ease,
+    transform var(--duration-default) ease;
+}
+
+.global-settings-popup,
+.header__submenu.global-settings-popup {
+  border-radius: var(--popup-corner-radius);
+  border-color: rgba(var(--color-foreground), var(--popup-border-opacity));
+  border-style: solid;
+  border-width: var(--popup-border-width);
+  box-shadow: var(--popup-shadow-horizontal-offset) var(--popup-shadow-vertical-offset) var(--popup-shadow-blur-radius) rgba(var(--color-shadow), var(--popup-shadow-opacity));
+}
+
+.header__submenu.list-menu {
+  padding: 2.4rem 0;
+}
+
+.header__submenu .header__submenu {
+  background-color: rgba(var(--color-foreground), 0.03);
+  padding: 0.5rem 0;
+  margin: 0.5rem 0;
+}
+
+.header__submenu .header__menu-item:after {
+  right: 2rem;
+}
+
+.header__submenu .header__menu-item {
+  justify-content: space-between;
+  padding: 0.8rem 2.4rem;
+}
+
+.header__submenu .header__submenu .header__menu-item {
+  padding-left: 3.4rem;
+}
+
+.header__menu-item .icon-caret {
+  right: 0.8rem;
+}
+
+.header__submenu .icon-caret {
+  flex-shrink: 0;
+  margin-left: 1rem;
+  position: static;
+}
+
+header-menu > details,
+details-disclosure > details {
+  position: relative;
+}
+
+@keyframes animateMenuOpen {
+  0% {
+    opacity: 0;
+    transform: translateY(-1.5rem);
   }
 
-  @media screen and (min-width: 990px) {
-    .header {
-      padding-top: 0px;
-      padding-bottom: 0px;
-    }
-  }</style><script src="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/details-disclosure.js?v=153497636716254413831672602117" defer="defer"></script>
-<script src="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/details-modal.js?v=4511761896672669691672602115" defer="defer"></script>
-<script src="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/cart-notification.js?v=160453272920806432391672602078" defer="defer"></script><svg xmlns="http://www.w3.org/2000/svg" class="hidden">
-  <symbol id="icon-search" viewbox="0 0 18 19" fill="none">
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.03 11.68A5.784 5.784 0 112.85 3.5a5.784 5.784 0 018.18 8.18zm.26 1.12a6.78 6.78 0 11.72-.7l5.4 5.4a.5.5 0 11-.71.7l-5.41-5.4z" fill="currentColor"/>
-  </symbol>
-
-  <symbol id="icon-close" class="icon icon-close" fill="none" viewBox="0 0 18 17">
-    <path d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z" fill="currentColor">
-  </symbol>
-</svg>
-<sticky-header class="header-wrapper color-background-1 gradient header-wrapper--border-bottom">
-  <header class="header header--top-center header--mobile-center page-width header--has-menu"><header-drawer data-breakpoint="tablet">
-        <details id="Details-menu-drawer-container" class="menu-drawer-container">
-          <summary class="header__icon header__icon--menu header__icon--summary link focus-inset" aria-label="Menu">
-            <span>
-              <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon icon-hamburger" fill="none" viewBox="0 0 18 16">
-  <path d="M1 .5a.5.5 0 100 1h15.71a.5.5 0 000-1H1zM.5 8a.5.5 0 01.5-.5h15.71a.5.5 0 010 1H1A.5.5 0 01.5 8zm0 7a.5.5 0 01.5-.5h15.71a.5.5 0 010 1H1a.5.5 0 01-.5-.5z" fill="currentColor">
-</svg>
-
-              <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" fill="none" viewBox="0 0 18 17">
-  <path d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z" fill="currentColor">
-</svg>
-
-            </span>
-          </summary>
-          <div id="menu-drawer" class="gradient menu-drawer motion-reduce" tabindex="-1">
-            <div class="menu-drawer__inner-container">
-              <div class="menu-drawer__navigation-container">
-                <nav class="menu-drawer__navigation">
-                  <ul class="menu-drawer__menu has-submenu list-menu" role="list"><li><a href="/" class="menu-drawer__menu-item list-menu__item link link--text focus-inset menu-drawer__menu-item--active" aria-current="page">
-                            Accueil
-                          </a></li><li><a href="/collections/tout-les-produits-en-ventes" class="menu-drawer__menu-item list-menu__item link link--text focus-inset">
-                            Catalogue
-                          </a></li><li><a href="/pages/contact" class="menu-drawer__menu-item list-menu__item link link--text focus-inset">
-                            Contact
-                          </a></li></ul>
-                </nav>
-                <div class="menu-drawer__utility-links"><ul class="list list-social list-unstyled" role="list"></ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </details>
-      </header-drawer><h1 class="header__heading"><a href="/" class="header__heading-link link link--text focus-inset"><img src="//cdn.shopify.com/s/files/1/0665/0026/4203/files/logo.png?v=1676900827" alt="Sina&#39;s RIde" srcset="//cdn.shopify.com/s/files/1/0665/0026/4203/files/logo.png?v=1676900827&amp;width=50 50w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/logo.png?v=1676900827&amp;width=100 100w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/logo.png?v=1676900827&amp;width=150 150w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/logo.png?v=1676900827&amp;width=200 200w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/logo.png?v=1676900827&amp;width=250 250w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/logo.png?v=1676900827&amp;width=300 300w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/logo.png?v=1676900827&amp;width=400 400w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/logo.png?v=1676900827&amp;width=500 500w" width="230" height="129.398" class="header__heading-logo">
-</a></h1><nav class="header__inline-menu">
-          <ul class="list-menu list-menu--inline" role="list"><li><a href="/" class="header__menu-item list-menu__item link link--text focus-inset" aria-current="page">
-                    <span class="header__active-menu-item">Accueil</span>
-                  </a></li><li><a href="/collections/tout-les-produits-en-ventes" class="header__menu-item list-menu__item link link--text focus-inset">
-                    <span>Catalogue</span>
-                  </a></li><li><a href="/pages/contact" class="header__menu-item list-menu__item link link--text focus-inset">
-                    <span>Contact</span>
-                  </a></li></ul>
-        </nav><div class="header__icons">
-      <details-modal class="header__search">
-        <details>
-          <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="Recherche">
-            <span>
-              <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false" role="presentation">
-                <use href="#icon-search">
-              </svg>
-              <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false" role="presentation">
-                <use href="#icon-close">
-              </svg>
-            </span>
-          </summary>
-          <div class="search-modal modal__content gradient" role="dialog" aria-modal="true" aria-label="Recherche">
-            <div class="modal-overlay"></div>
-            <div class="search-modal__content search-modal__content-bottom" tabindex="-1"><predictive-search class="search-modal__form" data-loading-text="Chargement en cours..."><form action="/search" method="get" role="search" class="search search-modal__form">
-                  <div class="field">
-                    <input class="search__input field__input"
-                      id="Search-In-Modal"
-                      type="search"
-                      name="q"
-                      value=""
-                      placeholder="Recherche"role="combobox"
-                        aria-expanded="false"
-                        aria-owns="predictive-search-results-list"
-                        aria-controls="predictive-search-results-list"
-                        aria-haspopup="listbox"
-                        aria-autocomplete="list"
-                        autocorrect="off"
-                        autocomplete="off"
-                        autocapitalize="off"
-                        spellcheck="false">
-                    <label class="field__label" for="Search-In-Modal">Recherche</label>
-                    <input type="hidden" name="options[prefix]" value="last">
-                    <button class="search__button field__button" aria-label="Recherche">
-                      <svg class="icon icon-search" aria-hidden="true" focusable="false" role="presentation">
-                        <use href="#icon-search">
-                      </svg>
-                    </button>
-                  </div><div class="predictive-search predictive-search--header" tabindex="-1" data-predictive-search>
-                      <div class="predictive-search__loading-state">
-                        <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
-                          <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
-                        </svg>
-                      </div>
-                    </div>
-
-                    <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span></form></predictive-search><button type="button" class="search-modal__close-button modal__close-button link link--text focus-inset" aria-label="Fermer">
-                <svg class="icon icon-close" aria-hidden="true" focusable="false" role="presentation">
-                  <use href="#icon-close">
-                </svg>
-              </button>
-            </div>
-          </div>
-        </details>
-      </details-modal><a href="/cart" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble"><svg class="icon icon-cart-empty" aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none">
-  <path d="m15.75 11.8h-3.16l-.77 11.6a5 5 0 0 0 4.99 5.34h7.38a5 5 0 0 0 4.99-5.33l-.78-11.61zm0 1h-2.22l-.71 10.67a4 4 0 0 0 3.99 4.27h7.38a4 4 0 0 0 4-4.27l-.72-10.67h-2.22v.63a4.75 4.75 0 1 1 -9.5 0zm8.5 0h-7.5v.63a3.75 3.75 0 1 0 7.5 0z" fill="currentColor" fill-rule="evenodd"/>
-</svg>
-<span class="visually-hidden">Panier</span></a>
-    </div>
-  </header>
-</sticky-header>
-
-<cart-notification>
-  <div class="cart-notification-wrapper page-width">
-    <div id="cart-notification" class="cart-notification focus-inset color-background-1 gradient" aria-modal="true" aria-label="Article ajouté au panier" role="dialog" tabindex="-1">
-      <div class="cart-notification__header">
-        <h2 class="cart-notification__heading caption-large text-body"><svg class="icon icon-checkmark color-foreground-text" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 9" fill="none">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M11.35.643a.5.5 0 01.006.707l-6.77 6.886a.5.5 0 01-.719-.006L.638 4.845a.5.5 0 11.724-.69l2.872 3.011 6.41-6.517a.5.5 0 01.707-.006h-.001z" fill="currentColor"/>
-</svg>
-Article ajouté au panier</h2>
-        <button type="button" class="cart-notification__close modal__close-button link link--text focus-inset" aria-label="Fermer">
-          <svg class="icon icon-close" aria-hidden="true" focusable="false"><use href="#icon-close"></svg>
-        </button>
-      </div>
-      <div id="cart-notification-product" class="cart-notification-product"></div>
-      <div class="cart-notification__links">
-        <a href="/cart" id="cart-notification-button" class="button button--secondary button--full-width"></a>
-        <form action="/cart" method="post" id="cart-notification-form">
-          <button class="button button--primary button--full-width" name="checkout">Procéder au paiement</button>
-        </form>
-        <button type="button" class="link button-label">Continuer les achats</button>
-      </div>
-    </div>
-  </div>
-</cart-notification>
-<style data-shopify>
-  .cart-notification {
-     display: none;
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
-</style>
+}
 
+.overflow-hidden-mobile,
+.overflow-hidden-tablet {
+  overflow: hidden;
+}
 
-<script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "Organization",
-    "name": "Sina\u0026#39;s Ride",
-    
-      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0026\/4203\/files\/logo.png?v=1676900827\u0026width=5000",
-    
-    "sameAs": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "url": "https:\/\/www.sinasride.fr"
+@media screen and (min-width: 750px) {
+  .overflow-hidden-mobile {
+    overflow: auto;
   }
-</script>
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "WebSite",
-      "name": "Sina\u0026#39;s Ride",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https:\/\/www.sinasride.fr\/search?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      },
-      "url": "https:\/\/www.sinasride.fr"
-    }
-  </script>
-</div>
-    <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      <section id="shopify-section-template--16798064902411__image_banner" class="shopify-section section"><link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/section-image-banner.css?v=170916557215809668651672602082" rel="stylesheet" type="text/css" media="all" />
-<style data-shopify>#Banner-template--16798064902411__image_banner::after {
-    opacity: 0.3;
-  }</style><div id="Banner-template--16798064902411__image_banner" class="banner banner--content-align-center banner--content-align-mobile-center banner--large banner--desktop-transparent"><div class="banner__media media"><img src="//cdn.shopify.com/s/files/1/0665/0026/4203/files/young-stylish-couple-of-trendy-dressed-skaters-relaxing-at-skatepark-2.jpg?v=1673732079&amp;width=1500" srcset="//cdn.shopify.com/s/files/1/0665/0026/4203/files/young-stylish-couple-of-trendy-dressed-skaters-relaxing-at-skatepark-2.jpg?v=1673732079&amp;width=375 375w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/young-stylish-couple-of-trendy-dressed-skaters-relaxing-at-skatepark-2.jpg?v=1673732079&amp;width=550 550w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/young-stylish-couple-of-trendy-dressed-skaters-relaxing-at-skatepark-2.jpg?v=1673732079&amp;width=750 750w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/young-stylish-couple-of-trendy-dressed-skaters-relaxing-at-skatepark-2.jpg?v=1673732079&amp;width=1100 1100w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/young-stylish-couple-of-trendy-dressed-skaters-relaxing-at-skatepark-2.jpg?v=1673732079&amp;width=1500 1500w" width="2000" height="1332.9999999999998" loading="lazy" sizes="100vw">
-    </div><div class="banner__content banner__content--bottom-center page-width">
-    <div class="banner__box content-container content-container--full-width-mobile color-background-1 gradient"><h2 class="banner__heading h0" >
-              <span>Adoptez votre Style</span>
-            </h2><div class="banner__text body" >
-              <span>Cette passion qui nous rassemble tous nous rassemble ici aussi</span>
-            </div><div class="banner__buttons" ><a href="/collections/all" class="button button--secondary">Nos produits</a></div></div>
-  </div>
-</div>
+}
 
+@media screen and (min-width: 990px) {
+  .overflow-hidden-tablet {
+    overflow: auto;
+  }
+}
 
-</section><section id="shopify-section-template--16798064902411__rich_text" class="shopify-section section"><link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-rte.css?v=69919436638515329781672602121" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/section-rich-text.css?v=155250126305810049721672602106" media="print" onload="this.media='all'">
+.badge {
+  border: 1px solid transparent;
+  border-radius: var(--badge-corner-radius);
+  display: inline-block;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  line-height: 1;
+  padding: 0.5rem 1.3rem 0.6rem 1.3rem;
+  text-align: center;
+  background-color: rgb(var(--color-badge-background));
+  border-color: rgba(var(--color-badge-border), var(--alpha-badge-border));
+  color: rgb(var(--color-foreground));
+  word-break: break-word;
+}
 
-<noscript><link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-rte.css?v=69919436638515329781672602121" rel="stylesheet" type="text/css" media="all" /></noscript>
-<noscript><link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/section-rich-text.css?v=155250126305810049721672602106" rel="stylesheet" type="text/css" media="all" /></noscript><style data-shopify>.section-template--16798064902411__rich_text-padding {
-    padding-top: 30px;
-    padding-bottom: 0px;
+.gradient {
+  background: rgb(var(--color-background));
+  background: var(--gradient-background);
+  background-attachment: fixed;
+}
+
+@media screen and (forced-colors: active) {
+  .icon {
+    color: CanvasText;
+    fill: CanvasText !important;
   }
 
-  @media screen and (min-width: 750px) {
-    .section-template--16798064902411__rich_text-padding {
-      padding-top: 40px;
-      padding-bottom: 0px;
-    }
-  }</style><div class="isolate">
-  <div class="rich-text content-container color-background-1 gradient rich-text--full-width content-container--full-width section-template--16798064902411__rich_text-padding">
-    <div class="rich-text__wrapper rich-text__wrapper--center page-width">
-      <div class="rich-text__blocks center"><h2 class="rich-text__heading rte h1" >
-                <span>Sina's Ride development</span>
-              </h2><div class="rich-text__text rte" >
-                <p>Bienvenue dans notre boutique, nos designs sont travaillés, étudiés pour toujours vous satisfaire. Nos collections sont des séries limitées et n'attendent que vous !</p>
-              </div></div>
-    </div>
-  </div>
-</div>
+  .icon-close-small path {
+    stroke: CanvasText;
+  }
+}
 
+.ratio {
+  display: flex;
+  position: relative;
+  align-items: stretch;
+}
 
-</section><section id="shopify-section-template--16798064902411__collage" class="shopify-section section"><link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/collage.css?v=66057739542734032651672602126" rel="stylesheet" type="text/css" media="all" />
-<link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-card.css?v=13116108056750117421672602116" rel="stylesheet" type="text/css" media="all" />
-<link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-price.css?v=65402837579211014041672602079" rel="stylesheet" type="text/css" media="all" />
-<link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-modal-video.css?v=48762958730556882751672602127" rel="stylesheet" type="text/css" media="all" />
-<style data-shopify>.section-template--16798064902411__collage-padding {
-    padding-top: 27px;
-    padding-bottom: 27px;
+.ratio::before {
+  content: '';
+  width: 0;
+  height: 0;
+  padding-bottom: var(--ratio-percent);
+}
+
+.content-container {
+  border-radius: var(--text-boxes-radius);
+  border: var(--text-boxes-border-width) solid rgba(var(--color-foreground), var(--text-boxes-border-opacity));
+  position: relative;
+}
+
+.content-container:after {
+  content: '';
+  position: absolute;
+  top: calc(var(--text-boxes-border-width) * -1);
+  right: calc(var(--text-boxes-border-width) * -1);
+  bottom: calc(var(--text-boxes-border-width) * -1);
+  left: calc(var(--text-boxes-border-width) * -1);
+  border-radius: var(--text-boxes-radius);
+  box-shadow: var(--text-boxes-shadow-horizontal-offset)
+    var(--text-boxes-shadow-vertical-offset)
+    var(--text-boxes-shadow-blur-radius)
+    rgba(var(--color-shadow), var(--text-boxes-shadow-opacity));
+  z-index: -1;
+}
+
+.content-container--full-width:after {
+  left: 0;
+  right: 0;
+  border-radius: 0;
+}
+
+@media screen and (max-width: 749px) {
+  .content-container--full-width-mobile {
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+  }
+  .content-container--full-width-mobile:after {
+    display: none;
+  }
+}
+
+.global-media-settings {
+  position: relative;
+  border: var(--media-border-width) solid rgba(var(--color-foreground), var(--media-border-opacity));
+  border-radius: var(--media-radius);
+  overflow: visible !important;
+  background-color: rgb(var(--color-background));
+}
+
+.global-media-settings:after {
+  content: '';
+  position: absolute;
+  top: calc(var(--media-border-width) * -1);
+  right: calc(var(--media-border-width) * -1);
+  bottom: calc(var(--media-border-width) * -1);
+  left: calc(var(--media-border-width) * -1);
+  border-radius: var(--media-radius);
+  box-shadow: var(--media-shadow-horizontal-offset) var(--media-shadow-vertical-offset) var(--media-shadow-blur-radius) rgba(var(--color-shadow), var(--media-shadow-opacity));
+  z-index: -1;
+  pointer-events: none;
+}
+
+.global-media-settings--no-shadow {
+  overflow: hidden !important;
+}
+
+.global-media-settings--no-shadow:after {
+  content: none;
+}
+
+.global-media-settings img,
+.global-media-settings iframe,
+.global-media-settings model-viewer,
+.global-media-settings video {
+  border-radius: calc(var(--media-radius) - var(--media-border-width));
+}
+
+.content-container--full-width,
+.global-media-settings--full-width,
+.global-media-settings--full-width img {
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+}
+
+/* check for flexbox gap in older Safari versions */
+@supports not (inset: 10px) {
+  .grid {
+    margin-left: calc(-1 * var(--grid-mobile-horizontal-spacing));
   }
 
-  @media screen and (min-width: 750px) {
-    .section-template--16798064902411__collage-padding {
-      padding-top: 36px;
-      padding-bottom: 36px;
-    }
-  }</style><link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-deferred-media.css?v=54092797763792720131672602110" media="print" onload="this.media='all'">
-
-<div class="color-background-1 gradient isolate">
-  <div class="page-width no-heading section-template--16798064902411__collage-padding">
-    <h2 class="collage-wrapper-title h2"></h2>
-    <div class="collage collage--mobile"><div class="collage__item collage__item--collection collage__item--left" >
-<div class="card-wrapper animate-arrow product-card-wrapper">
-  <div class="card
-    card--standard
-     card--media
-    
-     card--extend-height
-    "
-    style="--ratio-percent: 100.0%;"
-  >
-    <div class="card__inner color-background-2 gradient ratio" style="--ratio-percent: 100.0%;"><div class="card__media">
-          <div class="media media--transparent media--hover-effect">
-            <img
-              srcset="//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-black-front-63f3e9a7c2142.png?v=1676929571&width=165 165w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-black-front-63f3e9a7c2142.png?v=1676929571&width=330 330w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-black-front-63f3e9a7c2142.png?v=1676929571&width=535 535w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-black-front-63f3e9a7c2142.png?v=1676929571&width=750 750w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-black-front-63f3e9a7c2142.png?v=1676929571&width=1000 1000w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-black-front-63f3e9a7c2142.png?v=1676929571&width=1500 1500w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-black-front-63f3e9a7c2142.png?v=1676929571 2000w"
-              src="//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-black-front-63f3e9a7c2142.png?v=1676929571&width=1500"
-              sizes="
-              (min-width: 1200px) 550px,
-              (min-width: 750px) calc((100vw - 10rem) / 2),
-              calc(100vw - 3rem)"
-              alt=""
-              height="2000"
-              width="2000"
-              loading="lazy"
-              class="motion-reduce"
-            >
-          </div>
-        </div><div class="card__content">
-        <div class="card__information">
-          <h3 class="card__heading">
-            <a href="/collections/frontpage" class="full-unstyled-link">Dernière collection<span class="icon-wrap"><svg viewBox="0 0 14 10" fill="none" aria-hidden="true" focusable="false" role="presentation" class="icon icon-arrow" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z" fill="currentColor">
-</svg>
-</span>
-            </a>
-          </h3></div>   
-      </div>
-    </div>
-     
-      <div class="card__content">
-        <div class="card__information">
-          <h3 class="card__heading">
-            <a href="/collections/frontpage" class="full-unstyled-link">Dernière collection<span class="icon-wrap"><svg viewBox="0 0 14 10" fill="none" aria-hidden="true" focusable="false" role="presentation" class="icon icon-arrow" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z" fill="currentColor">
-</svg>
-</span>
-            </a>
-          </h3></div>
-      </div>
-     
-  </div>
-</div>
-
-</div><div class="collage__item collage__item--product collage__item--left" >
-
-<link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-rating.css?v=24573085263941240431672602112" rel="stylesheet" type="text/css" media="all" />
-<div class="card-wrapper product-card-wrapper underline-links-hover">
-    <div
-      class="
-        card
-        card--standard
-         card--media
-        
-         card--extend-height
-        
-        
-      "
-      style="--ratio-percent: 100.0%;"
-    >
-      <div
-        class="card__inner color-background-2 gradient ratio"
-        style="--ratio-percent: 100.0%;"
-      ><div class="card__media">
-            <div class="media media--transparent media--hover-effect">
-              
-              <img
-                srcset="//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f3981f38b1b.png?v=1676908891&width=165 165w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f3981f38b1b.png?v=1676908891&width=360 360w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f3981f38b1b.png?v=1676908891&width=533 533w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f3981f38b1b.png?v=1676908891&width=720 720w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f3981f38b1b.png?v=1676908891&width=940 940w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f3981f38b1b.png?v=1676908891&width=1066 1066w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f3981f38b1b.png?v=1676908891 2000w
-                "
-                src="//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f3981f38b1b.png?v=1676908891&width=533"
-                sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                alt="T-shirt The drift in The blood Unisexe"
-                class="motion-reduce"
-                
-                  loading="lazy"
-                
-                width="2000"
-                height="2000"
-              >
-              
-</div>
-          </div><div class="card__content">
-          <div class="card__information">
-            <h3
-              class="card__heading"
-              
-            >
-              <a
-                href="/products/t-shirt-the-drift-in-the-blood"
-                id="StandardCardNoMediaLink--8068175921419"
-                class="full-unstyled-link"
-                aria-labelledby="StandardCardNoMediaLink--8068175921419 NoMediaStandardBadge--8068175921419"
-              >
-                T-shirt The drift in The blood Unisexe
-              </a>
-            </h3>
-          </div>
-          <div class="card__badge bottom left"></div>
-        </div>
-      </div>
-      <div class="card__content">
-        <div class="card__information">
-          <h3
-            class="card__heading h5"
-            
-              id="title--8068175921419"
-            
-          >
-            <a
-              href="/products/t-shirt-the-drift-in-the-blood"
-              id="CardLink--8068175921419"
-              class="full-unstyled-link"
-              aria-labelledby="CardLink--8068175921419 Badge--8068175921419"
-            >
-              T-shirt The drift in The blood Unisexe
-            </a>
-          </h3>
-          <div class="card-information"><span class="caption-large light"></span>
-<div class="price ">
-  <div class="price__container"><div class="price__regular">
-      <span class="visually-hidden visually-hidden--inline">Prix habituel</span>
-      <span class="price-item price-item--regular">
-        €29,99 EUR
-      </span>
-    </div>
-    <div class="price__sale">
-        <span class="visually-hidden visually-hidden--inline">Prix habituel</span>
-        <span>
-          <s class="price-item price-item--regular">
-            
-              €29,99 EUR
-            
-          </s>
-        </span><span class="visually-hidden visually-hidden--inline">Prix soldé</span>
-      <span class="price-item price-item--sale price-item--last">
-        €29,99 EUR
-      </span>
-    </div>
-    <small class="unit-price caption hidden">
-      <span class="visually-hidden">Prix unitaire</span>
-      <span class="price-item price-item--last">
-        <span></span>
-        <span aria-hidden="true">/</span>
-        <span class="visually-hidden">&nbsp;par&nbsp;</span>
-        <span>
-        </span>
-      </span>
-    </small>
-  </div></div>
-
-          </div>
-        </div><div class="card__badge bottom left"></div>
-      </div>
-    </div>
-  </div>
-</div><div class="collage__item collage__item--collection collage__item--left" >
-<div class="card-wrapper animate-arrow product-card-wrapper">
-  <div class="card
-    card--standard
-     card--media
-    
-     card--extend-height
-    "
-    style="--ratio-percent: 100.0%;"
-  >
-    <div class="card__inner color-background-2 gradient ratio" style="--ratio-percent: 100.0%;"><div class="card__media">
-          <div class="media media--transparent media--hover-effect">
-            <img
-              srcset="//cdn.shopify.com/s/files/1/0665/0026/4203/products/knit-beanie-black-front-63f2bb88838f0.png?v=1676852156&width=165 165w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/knit-beanie-black-front-63f2bb88838f0.png?v=1676852156&width=330 330w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/knit-beanie-black-front-63f2bb88838f0.png?v=1676852156&width=535 535w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/knit-beanie-black-front-63f2bb88838f0.png?v=1676852156&width=750 750w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/knit-beanie-black-front-63f2bb88838f0.png?v=1676852156&width=1000 1000w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/knit-beanie-black-front-63f2bb88838f0.png?v=1676852156 1000w"
-              src="//cdn.shopify.com/s/files/1/0665/0026/4203/products/knit-beanie-black-front-63f2bb88838f0.png?v=1676852156&width=1500"
-              sizes="
-              (min-width: 1200px) 550px,
-              (min-width: 750px) calc((100vw - 10rem) / 2),
-              calc(100vw - 3rem)"
-              alt=""
-              height="1000"
-              width="1000"
-              loading="lazy"
-              class="motion-reduce"
-            >
-          </div>
-        </div><div class="card__content">
-        <div class="card__information">
-          <h3 class="card__heading">
-            <a href="/collections/collection-hiver" class="full-unstyled-link">Collection Hiver<span class="icon-wrap"><svg viewBox="0 0 14 10" fill="none" aria-hidden="true" focusable="false" role="presentation" class="icon icon-arrow" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z" fill="currentColor">
-</svg>
-</span>
-            </a>
-          </h3></div>   
-      </div>
-    </div>
-     
-      <div class="card__content">
-        <div class="card__information">
-          <h3 class="card__heading">
-            <a href="/collections/collection-hiver" class="full-unstyled-link">Collection Hiver<span class="icon-wrap"><svg viewBox="0 0 14 10" fill="none" aria-hidden="true" focusable="false" role="presentation" class="icon icon-arrow" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z" fill="currentColor">
-</svg>
-</span>
-            </a>
-          </h3></div>
-      </div>
-     
-  </div>
-</div>
-
-</div></div>
-  </div>
-</div>
-
-
-</section><section id="shopify-section-template--16798064902411__featured_collection" class="shopify-section section"><link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-card.css?v=13116108056750117421672602116" rel="stylesheet" type="text/css" media="all" />
-<link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-price.css?v=65402837579211014041672602079" rel="stylesheet" type="text/css" media="all" />
-
-<link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-slider.css?v=111384418465749404671672602084" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/template-collection.css?v=145944865380958730931672602119" media="print" onload="this.media='all'"><noscript><link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-slider.css?v=111384418465749404671672602084" rel="stylesheet" type="text/css" media="all" /></noscript>
-<noscript><link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/template-collection.css?v=145944865380958730931672602119" rel="stylesheet" type="text/css" media="all" /></noscript><style data-shopify>.section-template--16798064902411__featured_collection-padding {
-    padding-top: 21px;
-    padding-bottom: 27px;
+  .grid__item {
+    padding-left: var(--grid-mobile-horizontal-spacing);
+    padding-bottom: var(--grid-mobile-vertical-spacing);
   }
 
   @media screen and (min-width: 750px) {
-    .section-template--16798064902411__featured_collection-padding {
-      padding-top: 28px;
-      padding-bottom: 36px;
+    .grid {
+      margin-left: calc(-1 * var(--grid-desktop-horizontal-spacing));
     }
-  }</style><div class="color-background-1 isolate gradient">
-  <div class="collection section-template--16798064902411__featured_collection-padding">
-      <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width"><h2 class="title h2">Produits populaires</h2></div>
 
-    <slider-component class="slider-mobile-gutter page-width page-width-desktop">
-      <ul id="Slider-template--16798064902411__featured_collection" class="grid product-grid contains-card contains-card--product contains-card--standard grid--4-col-desktop grid--2-col-tablet-down" role="list" aria-label="Carrousel"><li id="Slide-template--16798064902411__featured_collection-1" class="grid__item">
-            
+    .grid__item {
+      padding-left: var(--grid-desktop-horizontal-spacing);
+      padding-bottom: var(--grid-desktop-vertical-spacing);
+    }
+  }
 
-<link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-rating.css?v=24573085263941240431672602112" rel="stylesheet" type="text/css" media="all" />
-<div class="card-wrapper product-card-wrapper underline-links-hover">
-    <div
-      class="
-        card
-        card--standard
-         card--media
-        
-        
-        
-        
-      "
-      style="--ratio-percent: 100.0%;"
-    >
-      <div
-        class="card__inner color-background-2 gradient ratio"
-        style="--ratio-percent: 100.0%;"
-      ><div class="card__media">
-            <div class="media media--transparent media--hover-effect">
-              
-              <img
-                srcset="//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-black-front-63f3e9a7c2142.png?v=1676929571&width=165 165w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-black-front-63f3e9a7c2142.png?v=1676929571&width=360 360w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-black-front-63f3e9a7c2142.png?v=1676929571&width=533 533w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-black-front-63f3e9a7c2142.png?v=1676929571&width=720 720w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-black-front-63f3e9a7c2142.png?v=1676929571&width=940 940w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-black-front-63f3e9a7c2142.png?v=1676929571&width=1066 1066w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-black-front-63f3e9a7c2142.png?v=1676929571 2000w
-                "
-                src="//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-black-front-63f3e9a7c2142.png?v=1676929571&width=533"
-                sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                alt="Sweat sans Capuche Sina&#39;s Ride Basic Unisexe"
-                class="motion-reduce"
-                
-                  loading="lazy"
-                
-                width="2000"
-                height="2000"
-              >
-              
-<img
-                  srcset="//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-white-front-63f3eae8335a8.png?v=1676929951&width=165 165w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-white-front-63f3eae8335a8.png?v=1676929951&width=360 360w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-white-front-63f3eae8335a8.png?v=1676929951&width=533 533w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-white-front-63f3eae8335a8.png?v=1676929951&width=720 720w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-white-front-63f3eae8335a8.png?v=1676929951&width=940 940w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-white-front-63f3eae8335a8.png?v=1676929951&width=1066 1066w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-white-front-63f3eae8335a8.png?v=1676929951 2000w
-                  "
-                  src="//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-raglan-sweatshirt-white-front-63f3eae8335a8.png?v=1676929951&width=533"
-                  sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                  alt=""
-                  class="motion-reduce"
-                  loading="lazy"
-                  width="2000"
-                  height="2000"
-                ></div>
-          </div><div class="card__content">
-          <div class="card__information">
-            <h3
-              class="card__heading"
-              
-            >
-              <a
-                href="/products/streetstyle"
-                id="StandardCardNoMediaLink-template--16798064902411__featured_collection-8113838588171"
-                class="full-unstyled-link"
-                aria-labelledby="StandardCardNoMediaLink-template--16798064902411__featured_collection-8113838588171 NoMediaStandardBadge-template--16798064902411__featured_collection-8113838588171"
-              >
-                Sweat sans Capuche Sina&#39;s Ride Basic Unisexe
-              </a>
-            </h3>
-          </div>
-          <div class="card__badge bottom left"><span
-                id="NoMediaStandardBadge-template--16798064902411__featured_collection-8113838588171"
-                class="badge badge--bottom-left color-inverse"
-              >Épuisé</span></div>
-        </div>
-      </div>
-      <div class="card__content">
-        <div class="card__information">
-          <h3
-            class="card__heading h5"
-            
-              id="title-template--16798064902411__featured_collection-8113838588171"
-            
-          >
-            <a
-              href="/products/streetstyle"
-              id="CardLink-template--16798064902411__featured_collection-8113838588171"
-              class="full-unstyled-link"
-              aria-labelledby="CardLink-template--16798064902411__featured_collection-8113838588171 Badge-template--16798064902411__featured_collection-8113838588171"
-            >
-              Sweat sans Capuche Sina&#39;s Ride Basic Unisexe
-            </a>
-          </h3>
-          <div class="card-information"><span class="caption-large light"></span>
-<div class="price  price--sold-out ">
-  <div class="price__container"><div class="price__regular">
-      <span class="visually-hidden visually-hidden--inline">Prix habituel</span>
-      <span class="price-item price-item--regular">
-        €49,99 EUR
-      </span>
-    </div>
-    <div class="price__sale">
-        <span class="visually-hidden visually-hidden--inline">Prix habituel</span>
-        <span>
-          <s class="price-item price-item--regular">
-            
-              
-            
-          </s>
-        </span><span class="visually-hidden visually-hidden--inline">Prix soldé</span>
-      <span class="price-item price-item--sale price-item--last">
-        €49,99 EUR
-      </span>
-    </div>
-    <small class="unit-price caption hidden">
-      <span class="visually-hidden">Prix unitaire</span>
-      <span class="price-item price-item--last">
-        <span></span>
-        <span aria-hidden="true">/</span>
-        <span class="visually-hidden">&nbsp;par&nbsp;</span>
-        <span>
-        </span>
-      </span>
-    </small>
-  </div></div>
+  .grid--gapless .grid__item {
+    padding-left: 0;
+    padding-bottom: 0;
+  }
 
-          </div>
-        </div><div class="card__badge bottom left"><span
-              id="Badge-template--16798064902411__featured_collection-8113838588171"
-              class="badge badge--bottom-left color-inverse"
-            >Épuisé</span></div>
-      </div>
-    </div>
-  </div>
-          </li><li id="Slide-template--16798064902411__featured_collection-2" class="grid__item">
-            
+  @media screen and (min-width: 749px) {
+    .grid--peek .grid__item {
+      padding-left: var(--grid-mobile-horizontal-spacing);
+    }
+  }
 
-<link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-rating.css?v=24573085263941240431672602112" rel="stylesheet" type="text/css" media="all" />
-<div class="card-wrapper product-card-wrapper underline-links-hover">
-    <div
-      class="
-        card
-        card--standard
-         card--media
-        
-        
-        
-        
-      "
-      style="--ratio-percent: 100.0%;"
-    >
-      <div
-        class="card__inner color-background-2 gradient ratio"
-        style="--ratio-percent: 100.0%;"
-      ><div class="card__media">
-            <div class="media media--transparent media--hover-effect">
-              
-              <img
-                srcset="//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f3981f38b1b.png?v=1676908891&width=165 165w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f3981f38b1b.png?v=1676908891&width=360 360w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f3981f38b1b.png?v=1676908891&width=533 533w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f3981f38b1b.png?v=1676908891&width=720 720w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f3981f38b1b.png?v=1676908891&width=940 940w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f3981f38b1b.png?v=1676908891&width=1066 1066w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f3981f38b1b.png?v=1676908891 2000w
-                "
-                src="//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f3981f38b1b.png?v=1676908891&width=533"
-                sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                alt="T-shirt The drift in The blood Unisexe"
-                class="motion-reduce"
-                
-                  loading="lazy"
-                
-                width="2000"
-                height="2000"
-              >
-              
-<img
-                  srcset="//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-black-front-63f3ed77c8cbb.png?v=1676930554&width=165 165w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-black-front-63f3ed77c8cbb.png?v=1676930554&width=360 360w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-black-front-63f3ed77c8cbb.png?v=1676930554&width=533 533w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-black-front-63f3ed77c8cbb.png?v=1676930554&width=720 720w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-black-front-63f3ed77c8cbb.png?v=1676930554&width=940 940w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-black-front-63f3ed77c8cbb.png?v=1676930554 1000w
-                  "
-                  src="//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-black-front-63f3ed77c8cbb.png?v=1676930554&width=533"
-                  sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                  alt=""
-                  class="motion-reduce"
-                  loading="lazy"
-                  width="1000"
-                  height="1000"
-                ></div>
-          </div><div class="card__content">
-          <div class="card__information">
-            <h3
-              class="card__heading"
-              
-            >
-              <a
-                href="/products/t-shirt-the-drift-in-the-blood"
-                id="StandardCardNoMediaLink-template--16798064902411__featured_collection-8068175921419"
-                class="full-unstyled-link"
-                aria-labelledby="StandardCardNoMediaLink-template--16798064902411__featured_collection-8068175921419 NoMediaStandardBadge-template--16798064902411__featured_collection-8068175921419"
-              >
-                T-shirt The drift in The blood Unisexe
-              </a>
-            </h3>
-          </div>
-          <div class="card__badge bottom left"></div>
-        </div>
-      </div>
-      <div class="card__content">
-        <div class="card__information">
-          <h3
-            class="card__heading h5"
-            
-              id="title-template--16798064902411__featured_collection-8068175921419"
-            
-          >
-            <a
-              href="/products/t-shirt-the-drift-in-the-blood"
-              id="CardLink-template--16798064902411__featured_collection-8068175921419"
-              class="full-unstyled-link"
-              aria-labelledby="CardLink-template--16798064902411__featured_collection-8068175921419 Badge-template--16798064902411__featured_collection-8068175921419"
-            >
-              T-shirt The drift in The blood Unisexe
-            </a>
-          </h3>
-          <div class="card-information"><span class="caption-large light"></span>
-<div class="price ">
-  <div class="price__container"><div class="price__regular">
-      <span class="visually-hidden visually-hidden--inline">Prix habituel</span>
-      <span class="price-item price-item--regular">
-        €29,99 EUR
-      </span>
-    </div>
-    <div class="price__sale">
-        <span class="visually-hidden visually-hidden--inline">Prix habituel</span>
-        <span>
-          <s class="price-item price-item--regular">
-            
-              €29,99 EUR
-            
-          </s>
-        </span><span class="visually-hidden visually-hidden--inline">Prix soldé</span>
-      <span class="price-item price-item--sale price-item--last">
-        €29,99 EUR
-      </span>
-    </div>
-    <small class="unit-price caption hidden">
-      <span class="visually-hidden">Prix unitaire</span>
-      <span class="price-item price-item--last">
-        <span></span>
-        <span aria-hidden="true">/</span>
-        <span class="visually-hidden">&nbsp;par&nbsp;</span>
-        <span>
-        </span>
-      </span>
-    </small>
-  </div></div>
-
-          </div>
-        </div><div class="card__badge bottom left"></div>
-      </div>
-    </div>
-  </div>
-          </li><li id="Slide-template--16798064902411__featured_collection-3" class="grid__item">
-            
-
-<link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-rating.css?v=24573085263941240431672602112" rel="stylesheet" type="text/css" media="all" />
-<div class="card-wrapper product-card-wrapper underline-links-hover">
-    <div
-      class="
-        card
-        card--standard
-         card--media
-        
-        
-        
-        
-      "
-      style="--ratio-percent: 100.0%;"
-    >
-      <div
-        class="card__inner color-background-2 gradient ratio"
-        style="--ratio-percent: 100.0%;"
-      ><div class="card__media">
-            <div class="media media--transparent media--hover-effect">
-              
-              <img
-                srcset="//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-black-front-63f2c0a0eddf6.png?v=1676853530&width=165 165w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-black-front-63f2c0a0eddf6.png?v=1676853530&width=360 360w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-black-front-63f2c0a0eddf6.png?v=1676853530&width=533 533w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-black-front-63f2c0a0eddf6.png?v=1676853530&width=720 720w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-black-front-63f2c0a0eddf6.png?v=1676853530&width=940 940w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-black-front-63f2c0a0eddf6.png?v=1676853530 1000w
-                "
-                src="//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-black-front-63f2c0a0eddf6.png?v=1676853530&width=533"
-                sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                alt="T-shirt tête de Démon Brodé Unisexe"
-                class="motion-reduce"
-                
-                  loading="lazy"
-                
-                width="1000"
-                height="1000"
-              >
-              
-<img
-                  srcset="//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f2c0a145fac.png?v=1676853530&width=165 165w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f2c0a145fac.png?v=1676853530&width=360 360w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f2c0a145fac.png?v=1676853530&width=533 533w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f2c0a145fac.png?v=1676853530&width=720 720w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f2c0a145fac.png?v=1676853530&width=940 940w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f2c0a145fac.png?v=1676853530 1000w
-                  "
-                  src="//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-organic-cotton-t-shirt-white-front-63f2c0a145fac.png?v=1676853530&width=533"
-                  sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                  alt=""
-                  class="motion-reduce"
-                  loading="lazy"
-                  width="1000"
-                  height="1000"
-                ></div>
-          </div><div class="card__content">
-          <div class="card__information">
-            <h3
-              class="card__heading"
-              
-            >
-              <a
-                href="/products/unisex-organic-cotton-t-shirt"
-                id="StandardCardNoMediaLink-template--16798064902411__featured_collection-8148310098187"
-                class="full-unstyled-link"
-                aria-labelledby="StandardCardNoMediaLink-template--16798064902411__featured_collection-8148310098187 NoMediaStandardBadge-template--16798064902411__featured_collection-8148310098187"
-              >
-                T-shirt tête de Démon Brodé Unisexe
-              </a>
-            </h3>
-          </div>
-          <div class="card__badge bottom left"></div>
-        </div>
-      </div>
-      <div class="card__content">
-        <div class="card__information">
-          <h3
-            class="card__heading h5"
-            
-              id="title-template--16798064902411__featured_collection-8148310098187"
-            
-          >
-            <a
-              href="/products/unisex-organic-cotton-t-shirt"
-              id="CardLink-template--16798064902411__featured_collection-8148310098187"
-              class="full-unstyled-link"
-              aria-labelledby="CardLink-template--16798064902411__featured_collection-8148310098187 Badge-template--16798064902411__featured_collection-8148310098187"
-            >
-              T-shirt tête de Démon Brodé Unisexe
-            </a>
-          </h3>
-          <div class="card-information"><span class="caption-large light"></span>
-<div class="price ">
-  <div class="price__container"><div class="price__regular">
-      <span class="visually-hidden visually-hidden--inline">Prix habituel</span>
-      <span class="price-item price-item--regular">
-        €29,99 EUR
-      </span>
-    </div>
-    <div class="price__sale">
-        <span class="visually-hidden visually-hidden--inline">Prix habituel</span>
-        <span>
-          <s class="price-item price-item--regular">
-            
-              
-            
-          </s>
-        </span><span class="visually-hidden visually-hidden--inline">Prix soldé</span>
-      <span class="price-item price-item--sale price-item--last">
-        €29,99 EUR
-      </span>
-    </div>
-    <small class="unit-price caption hidden">
-      <span class="visually-hidden">Prix unitaire</span>
-      <span class="price-item price-item--last">
-        <span></span>
-        <span aria-hidden="true">/</span>
-        <span class="visually-hidden">&nbsp;par&nbsp;</span>
-        <span>
-        </span>
-      </span>
-    </small>
-  </div></div>
-
-          </div>
-        </div><div class="card__badge bottom left"></div>
-      </div>
-    </div>
-  </div>
-          </li><li id="Slide-template--16798064902411__featured_collection-4" class="grid__item">
-            
-
-<link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-rating.css?v=24573085263941240431672602112" rel="stylesheet" type="text/css" media="all" />
-<div class="card-wrapper product-card-wrapper underline-links-hover">
-    <div
-      class="
-        card
-        card--standard
-         card--media
-        
-        
-        
-        
-      "
-      style="--ratio-percent: 100.0%;"
-    >
-      <div
-        class="card__inner color-background-2 gradient ratio"
-        style="--ratio-percent: 100.0%;"
-      ><div class="card__media">
-            <div class="media media--transparent media--hover-effect">
-              
-              <img
-                srcset="//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-essential-eco-hoodie-white-front-63f345b48c399.png?v=1676887493&width=165 165w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-essential-eco-hoodie-white-front-63f345b48c399.png?v=1676887493&width=360 360w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-essential-eco-hoodie-white-front-63f345b48c399.png?v=1676887493&width=533 533w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-essential-eco-hoodie-white-front-63f345b48c399.png?v=1676887493&width=720 720w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-essential-eco-hoodie-white-front-63f345b48c399.png?v=1676887493&width=940 940w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-essential-eco-hoodie-white-front-63f345b48c399.png?v=1676887493&width=1066 1066w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-essential-eco-hoodie-white-front-63f345b48c399.png?v=1676887493 2000w
-                "
-                src="//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-essential-eco-hoodie-white-front-63f345b48c399.png?v=1676887493&width=533"
-                sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                alt="Sweat à Capuche Sina&#39;s Ride Brodé Unisexe"
-                class="motion-reduce"
-                
-                  loading="lazy"
-                
-                width="2000"
-                height="2000"
-              >
-              
-<img
-                  srcset="//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-essential-eco-hoodie-black-front-63f343ce3c550.png?v=1676887493&width=165 165w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-essential-eco-hoodie-black-front-63f343ce3c550.png?v=1676887493&width=360 360w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-essential-eco-hoodie-black-front-63f343ce3c550.png?v=1676887493&width=533 533w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-essential-eco-hoodie-black-front-63f343ce3c550.png?v=1676887493&width=720 720w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-essential-eco-hoodie-black-front-63f343ce3c550.png?v=1676887493&width=940 940w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-essential-eco-hoodie-black-front-63f343ce3c550.png?v=1676887493&width=1066 1066w,//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-essential-eco-hoodie-black-front-63f343ce3c550.png?v=1676887493 2000w
-                  "
-                  src="//cdn.shopify.com/s/files/1/0665/0026/4203/products/unisex-essential-eco-hoodie-black-front-63f343ce3c550.png?v=1676887493&width=533"
-                  sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                  alt=""
-                  class="motion-reduce"
-                  loading="lazy"
-                  width="2000"
-                  height="2000"
-                ></div>
-          </div><div class="card__content">
-          <div class="card__information">
-            <h3
-              class="card__heading"
-              
-            >
-              <a
-                href="/products/sweat-ecologique-basique-unisexe"
-                id="StandardCardNoMediaLink-template--16798064902411__featured_collection-8148328448267"
-                class="full-unstyled-link"
-                aria-labelledby="StandardCardNoMediaLink-template--16798064902411__featured_collection-8148328448267 NoMediaStandardBadge-template--16798064902411__featured_collection-8148328448267"
-              >
-                Sweat à Capuche Sina&#39;s Ride Brodé Unisexe
-              </a>
-            </h3>
-          </div>
-          <div class="card__badge bottom left"></div>
-        </div>
-      </div>
-      <div class="card__content">
-        <div class="card__information">
-          <h3
-            class="card__heading h5"
-            
-              id="title-template--16798064902411__featured_collection-8148328448267"
-            
-          >
-            <a
-              href="/products/sweat-ecologique-basique-unisexe"
-              id="CardLink-template--16798064902411__featured_collection-8148328448267"
-              class="full-unstyled-link"
-              aria-labelledby="CardLink-template--16798064902411__featured_collection-8148328448267 Badge-template--16798064902411__featured_collection-8148328448267"
-            >
-              Sweat à Capuche Sina&#39;s Ride Brodé Unisexe
-            </a>
-          </h3>
-          <div class="card-information"><span class="caption-large light"></span>
-<div class="price ">
-  <div class="price__container"><div class="price__regular">
-      <span class="visually-hidden visually-hidden--inline">Prix habituel</span>
-      <span class="price-item price-item--regular">
-        €79,99 EUR
-      </span>
-    </div>
-    <div class="price__sale">
-        <span class="visually-hidden visually-hidden--inline">Prix habituel</span>
-        <span>
-          <s class="price-item price-item--regular">
-            
-              
-            
-          </s>
-        </span><span class="visually-hidden visually-hidden--inline">Prix soldé</span>
-      <span class="price-item price-item--sale price-item--last">
-        €79,99 EUR
-      </span>
-    </div>
-    <small class="unit-price caption hidden">
-      <span class="visually-hidden">Prix unitaire</span>
-      <span class="price-item price-item--last">
-        <span></span>
-        <span aria-hidden="true">/</span>
-        <span class="visually-hidden">&nbsp;par&nbsp;</span>
-        <span>
-        </span>
-      </span>
-    </small>
-  </div></div>
-
-          </div>
-        </div><div class="card__badge bottom left"></div>
-      </div>
-    </div>
-  </div>
-          </li></ul></slider-component></div>
-</div>
-
-
-</section><section id="shopify-section-template--16798064902411__video" class="shopify-section section"><link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/video-section.css?v=85459975000229754761672602087" rel="stylesheet" type="text/css" media="all" />
-<link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-deferred-media.css?v=54092797763792720131672602110" rel="stylesheet" type="text/css" media="all" />
-<style data-shopify>.section-template--16798064902411__video-padding {
-    padding-top: 27px;
-    padding-bottom: 27px;
+  .product-grid .grid__item {
+    padding-bottom: var(--grid-mobile-vertical-spacing);
   }
 
   @media screen and (min-width: 750px) {
-    .section-template--16798064902411__video-padding {
-      padding-top: 36px;
-      padding-bottom: 36px;
+    .product-grid .grid__item {
+      padding-bottom: var(--grid-desktop-vertical-spacing);
     }
-  }</style><div class="color-background-1 gradient">
-  <div class="video-section isolate page-width section-template--16798064902411__video-padding">
-    <div></div>
-    <noscript>
-      <div class="video-section__media"
-         style="padding-bottom: 66.650390625%;"
-      >
-        <a href="" class="video-section__poster media media--transparent media--landscape"><img src="//cdn.shopify.com/s/files/1/0665/0026/4203/files/vintage-car-steering-wheel.jpg?v=1672950373&amp;width=3840" alt="Charger la vidéo : " srcset="//cdn.shopify.com/s/files/1/0665/0026/4203/files/vintage-car-steering-wheel.jpg?v=1672950373&amp;width=375 375w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/vintage-car-steering-wheel.jpg?v=1672950373&amp;width=750 750w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/vintage-car-steering-wheel.jpg?v=1672950373&amp;width=1100 1100w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/vintage-car-steering-wheel.jpg?v=1672950373&amp;width=1500 1500w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/vintage-car-steering-wheel.jpg?v=1672950373&amp;width=1780 1780w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/vintage-car-steering-wheel.jpg?v=1672950373&amp;width=2000 2000w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/vintage-car-steering-wheel.jpg?v=1672950373&amp;width=3000 3000w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/vintage-car-steering-wheel.jpg?v=1672950373&amp;width=3840 3840w" width="3840" height="2559" loading="lazy" sizes="(min-width: 1200px) 1100px, (min-width: 750px) calc(100vw - 10rem), 100vw">
-</a>
-      </div>
-    </noscript>
-    <deferred-media class="video-section__media deferred-media no-js-hidden gradient global-media-settings" data-media-id=""
-       style="padding-bottom: 66.650390625%;"
-    >
-      <button
-        id="Deferred-Poster-Modal-"
-        class="video-section__poster media deferred-media__poster media--landscape"
-        type="button"
-        aria-label="Charger la vidéo : "
-      ><img src="//cdn.shopify.com/s/files/1/0665/0026/4203/files/vintage-car-steering-wheel.jpg?v=1672950373&amp;width=3840" alt="Charger la vidéo : " srcset="//cdn.shopify.com/s/files/1/0665/0026/4203/files/vintage-car-steering-wheel.jpg?v=1672950373&amp;width=375 375w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/vintage-car-steering-wheel.jpg?v=1672950373&amp;width=750 750w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/vintage-car-steering-wheel.jpg?v=1672950373&amp;width=1100 1100w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/vintage-car-steering-wheel.jpg?v=1672950373&amp;width=1500 1500w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/vintage-car-steering-wheel.jpg?v=1672950373&amp;width=1780 1780w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/vintage-car-steering-wheel.jpg?v=1672950373&amp;width=2000 2000w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/vintage-car-steering-wheel.jpg?v=1672950373&amp;width=3000 3000w, //cdn.shopify.com/s/files/1/0665/0026/4203/files/vintage-car-steering-wheel.jpg?v=1672950373&amp;width=3840 3840w" width="3840" height="2559" loading="lazy" sizes="(min-width: 1200px) 1100px, (min-width: 750px) calc(100vw - 10rem), 100vw">
-<span class="deferred-media__poster-button motion-reduce"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon icon-play" fill="none" viewBox="0 0 10 14"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.48177 0.814643C0.81532 0.448245 0 0.930414 0 1.69094V12.2081C0 12.991 0.858787 13.4702 1.52503 13.0592L10.5398 7.49813C11.1918 7.09588 11.1679 6.13985 10.4965 5.77075L1.48177 0.814643Z" fill="currentColor"/></svg>
-</span>
-      </button>
-      <template><iframe src="https://player.vimeo.com/video/" class="js-vimeo" allow="autoplay; encrypted-media" allowfullscreen title=""></iframe></template>
-    </deferred-media>
-  </div>
-</div>
+  }
+}
 
+.font-body-bold {
+  font-weight: var(--font-body-weight-bold);
+}
 
-</section>
-    </main>
-
-    <div id="shopify-section-footer" class="shopify-section">
-<link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/section-footer.css?v=83777583229853969691672602128" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-newsletter.css?v=103472482056003053551672602120" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-list-menu.css?v=151968516119678728991672602101" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-list-payment.css?v=69253961410771838501672602090" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-list-social.css?v=52211663153726659061672602071" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-rte.css?v=69919436638515329781672602121" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/disclosure.css?v=646595190999601341672602089" media="print" onload="this.media='all'">
-
-<noscript><link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-newsletter.css?v=103472482056003053551672602120" rel="stylesheet" type="text/css" media="all" /></noscript>
-<noscript><link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-list-menu.css?v=151968516119678728991672602101" rel="stylesheet" type="text/css" media="all" /></noscript>
-<noscript><link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-list-payment.css?v=69253961410771838501672602090" rel="stylesheet" type="text/css" media="all" /></noscript>
-<noscript><link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-list-social.css?v=52211663153726659061672602071" rel="stylesheet" type="text/css" media="all" /></noscript>
-<noscript><link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/component-rte.css?v=69919436638515329781672602121" rel="stylesheet" type="text/css" media="all" /></noscript>
-<noscript><link href="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/disclosure.css?v=646595190999601341672602089" rel="stylesheet" type="text/css" media="all" /></noscript><style data-shopify>.footer {
-    margin-top: 39px;
+/* outline and border styling for Windows High Contrast Mode */
+@media (forced-colors: active) {
+  .button,
+  .shopify-challenge__button,
+  .customer button {
+    border: transparent solid 1px;
   }
 
-  .section-footer-padding {
-    padding-top: 21px;
-    padding-bottom: 24px;
+  .button:focus-visible,
+  .button:focus,
+  .button.focused,
+  .shopify-payment-button__button--unbranded:focus-visible,
+  .shopify-payment-button [role="button"]:focus-visible,
+  .shopify-payment-button__button--unbranded:focus,
+  .shopify-payment-button [role="button"]:focus {
+    outline: solid transparent 1px;
   }
 
-  @media screen and (min-width: 750px) {
-    .footer {
-      margin-top: 52px;
-    }
+  .field__input:focus,
+  .select__select:focus,
+  .customer .field input:focus,
+  .customer select:focus,
+  .localization-form__select:focus.localization-form__select:after {
+    outline: transparent solid 1px;
+  }
 
-    .section-footer-padding {
-      padding-top: 28px;
-      padding-bottom: 32px;
-    }
-  }</style><footer class="footer color-background-1 gradient section-footer-padding"><div class="footer__content-top page-width"><div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet "><div class="footer-block grid__item footer-block--menu" ><h2 class="footer-block__heading">Liens Rapides</h2><ul class="footer-block__details-content list-unstyled"><li>
-                          <a href="https://www.instagram.com/sinasride/?next=%2F&hl=fr" class="link link--text list-menu__item list-menu__item--link">
-                            Instagram
-                          </a>
-                        </li><li>
-                          <a href="https://www.youtube.com/channel/UCNiDSI8PBGeKhtB5JLRv50A" class="link link--text list-menu__item list-menu__item--link">
-                            YouTube
-                          </a>
-                        </li><li>
-                          <a href="https://www.tiktok.com/@sinasride?lang=fr" class="link link--text list-menu__item list-menu__item--link">
-                            TikTok
-                          </a>
-                        </li></ul></div><div class="footer-block grid__item footer-block--menu" ><h2 class="footer-block__heading">Notre Société</h2><ul class="footer-block__details-content list-unstyled"><li>
-                          <a href="/pages/a-propos" class="link link--text list-menu__item list-menu__item--link">
-                            A propos
-                          </a>
-                        </li><li>
-                          <a href="/pages/conditions-generales-de-vente" class="link link--text list-menu__item list-menu__item--link">
-                            Conditions Générales de vente
-                          </a>
-                        </li><li>
-                          <a href="/pages/politique-de-confidentialite" class="link link--text list-menu__item list-menu__item--link">
-                            Politique de Confidentialité
-                          </a>
-                        </li><li>
-                          <a href="/pages/politique-de-retour" class="link link--text list-menu__item list-menu__item--link">
-                            Politique de Retour
-                          </a>
-                        </li></ul></div><div class="footer-block grid__item" ><h2 class="footer-block__heading">Informations</h2><div class="footer-block__details-content rte">
-                    <p>Sina's Ride</p><p>France</p><p>nous contacter</p><p><a href="mailto:sinasride@gmail.com" title="mailto:sinasride@gmail.com">sinasride@gmail.com</a></p>
-                  </div></div></div><div class="footer-block--newsletter"><div class="footer-block__newsletter"><h2 class="footer-block__heading">Inscrivez-vous avec votre e-mail</h2><form method="post" action="/contact#ContactFooter" id="ContactFooter" accept-charset="UTF-8" class="footer__newsletter newsletter-form"><input type="hidden" name="form_type" value="customer" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="contact[tags]" value="newsletter">
-              <div class="newsletter-form__field-wrapper">
-                <div class="field">
-                  <input
-                    id="NewsletterForm--footer"
-                    type="email"
-                    name="contact[email]"
-                    class="field__input"
-                    value=""
-                    aria-required="true"
-                    autocorrect="off"
-                    autocapitalize="off"
-                    autocomplete="email"
-                    
-                    placeholder="E-mail"
-                    required
-                  >
-                  <label class="field__label" for="NewsletterForm--footer">
-                    E-mail
-                  </label>
-                  <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="S&#39;inscrire">
-                    <svg viewBox="0 0 14 10" fill="none" aria-hidden="true" focusable="false" role="presentation" class="icon icon-arrow" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z" fill="currentColor">
-</svg>
-
-                  </button>
-                </div></div></form></div></div>
-    </div><div class="footer__content-bottom">
-    <div class="footer__content-bottom-wrapper page-width">
-      <div class="footer__column footer__localization isolate"></div>
-      <div class="footer__column footer__column--info"><div class="footer__copyright caption">
-          <small class="copyright__content">&copy; 2023, <a href="/" title="">Sina&#39;s Ride</a></small>
-          <small class="copyright__content"><a target="_blank" rel="nofollow" href="https://fr.shopify.com?utm_campaign=poweredby&amp;utm_medium=shopify&amp;utm_source=onlinestore"> </a></small>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-
-
-
-
-</div>
-
-    <ul hidden>
-      <li id="a11y-refresh-page-message">Le choix d&#39;une sélection entraîne l&#39;actualisation de la page entière.</li>
-      <li id="a11y-new-window-message">S&#39;ouvre dans une nouvelle fenêtre.</li>
-    </ul>
-
-    <script>
-      window.shopUrl = 'https://www.sinasride.fr';
-      window.routes = {
-        cart_add_url: '/cart/add',
-        cart_change_url: '/cart/change',
-        cart_update_url: '/cart/update',
-        cart_url: '/cart',
-        predictive_search_url: '/search/suggest'
-      };
-
-      window.cartStrings = {
-        error: `Une erreur est survenue lors de l’actualisation de votre panier. Veuillez réessayer.`,
-        quantityError: `Vous ne pouvez pas ajouter plus de [quantity] de ce produit à votre panier.`
-      }
-
-      window.variantStrings = {
-        addToCart: `Ajouter au panier`,
-        soldOut: `Épuisé`,
-        unavailable: `Non disponible`,
-      }
-
-      window.accessibilityStrings = {
-        imageAvailable: `L&#39;image [index] est maintenant disponible dans la galerie`,
-        shareSuccess: `Lien copié dans le presse-papiers`,
-        pauseSlideshow: `Interrompre le diaporama`,
-        playSlideshow: `Lire le diaporama`,
-      }
-    </script><script src="//cdn.shopify.com/s/files/1/0665/0026/4203/t/1/assets/predictive-search.js?v=31278710863581584031672602099" defer="defer"></script><!-- PF EDT START -->
-<script type='text/javascript'></script>
-<!-- PF EDT END -->
-    
-
-</body>
-</html>
+  .localization-form__select:focus {
+    outline: transparent solid 1px;
+  }
+}
